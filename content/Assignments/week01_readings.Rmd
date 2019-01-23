@@ -1,0 +1,14 @@
+Title: Reading 1
+Author: Dr. Glasbrenner
+Author_Image: https://www.gravatar.com/avatar/49802fdfa5a0e63b3d932a5179d41c1e
+Date: 2019-01-28 11:59
+Tags: reading
+Slug: reading01
+Show_summary: false
+Show_link: false
+
+[[Introductory Statistics with Randomization and Simulation][isrs-book]]{.h3}
+
+From chapter 1: the beginning through section 1.5, skipping section 1.4.2.
+
+[isrs-book]: /doc/Diez_Barr_%C3%87etinkaya-Rundel_IntroductoryStatisticsWithRandomizationAndSimulation.pdf
