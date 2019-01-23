@@ -76,10 +76,10 @@ SUMMARY_MAX_LENGTH = 50
 
 # Menu items
 MENUITEMS = [
-    (False, "Syllabus", "syllabus.html"),
+    # (False, "Syllabus", "syllabus.html"),
     (False, "Materials", "materials.html"),
     (False, "Assignments", "assignments.html"),
-    (False, "Datasets", "datasets.html"),
+    # (False, "Datasets", "datasets.html"),
 ]
 
 # Plugins
