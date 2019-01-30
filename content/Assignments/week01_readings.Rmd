@@ -7,8 +7,17 @@ Slug: reading01
 Show_summary: false
 Show_link: false
 
-[[Introductory Statistics with Randomization and Simulation][isrs-book]]{.h3}
+```{r setup, include = FALSE}
+icon_link <- '<i class="fa fa-link"></i>&nbsp;'
+icon_book <- '<i class="fa fa-book" data-fa-transform="grow-4"></i>&nbsp;'
+```
 
-From chapter 1: the beginning through section 1.5, skipping section 1.4.2.
+`r icon_book` [Introductory Statistics with Randomization and Simulation]{.h3}
+
+`r icon_link` [Click here][isrs-book] to download the textbook.
+
+**Chapter 1: Introduction to data**
+
+*   From the beginning up to the end of section 1.5, skipping section 1.4.2.
 
 [isrs-book]: /doc/Diez_Barr_%C3%87etinkaya-Rundel_IntroductoryStatisticsWithRandomizationAndSimulation.pdf

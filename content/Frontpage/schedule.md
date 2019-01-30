@@ -1,6 +1,7 @@
 Title: Spring 2019 Schedule
 Author: Dr. Glasbrenner
 Date: 2019-01-22 08:00
+Modified: 2019-01-28 08:00
 Index_save_as: index.html
 Url: /index.html
 
@@ -12,7 +13,10 @@ Week 1           Jan-21 – Jan-25      What are the computational and data scie
                                                                                                     data-fa-transform="grow-8">        [Mini-homework 1] (Due: Jan-29 @ 11:59pm)
                                                                                                     </i>][week01-materials]
 
-Week 2           Jan-28 – Feb-01      Course toolbox
+Week 2           Jan-28 – Feb-01      Course toolbox                                                [<i                                [Reading 2] (Complete by: Feb-04 @ 11:59pm)<br>
+                                                                                                    class="fas fa-chalkboard-teacher"  [Mini-homework 2a] (Due: Feb-05 @ 11:59pm)<br>
+                                                                                                    data-fa-transform="grow-8">        [Mini-homework 2b] (Due: Feb-05 @ 11:59pm)<br>
+                                                                                                    </i>][week02-materials]
 
 Week 3           Feb-04 – Feb-08      Data visualization
 
@@ -43,6 +47,10 @@ Week 14          Apr-29 – May-03      Final project                           
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [Reading 1]:          /assignments/reading01/
+[Reading 2]:          /assignments/reading02/
 [Mini-homework 1]:    /assignments/minihw01-can-twitter-predict-election-results/
+[Mini-homework 2a]:   /assignments/minihw02a-rmarkdown-practice/
+[Mini-homework 2b]:   /assignments/minihw02b-visualization-practice/
 [week01-materials]:   /materials/week01-materials/
+[week02-materials]:   /materials/week02-materials/
 [Module exercises 1]: /assignments/module-exercises01/
