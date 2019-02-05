@@ -50,12 +50,12 @@ icon_book <- '<i class="fa fa-book" data-fa-transform="grow-4"></i>&nbsp;'
 
 **Chapter 77: RStudio**
 
-*   Section 77.1 -- The panes
+*   Section 77.1 -- The panes: <https://rafalab.github.io/dsbook/rstudio.html#the-panes>
 
-*   Section 77.2 -- Key bindings
+*   Section 77.2 -- Key bindings: <https://rafalab.github.io/dsbook/rstudio.html#key-bindings>
 
-*   Section 77.5 -- Global options
+*   Section 77.5 -- Global options: <https://rafalab.github.io/dsbook/rstudio.html#global-options>
 
-*   Section 77.6 -- Keeping organized with RStudio projects
+*   Section 77.6 -- Keeping organized with RStudio projects: <https://rafalab.github.io/dsbook/rstudio.html#keeping-organized-with-rstudio-projects>
 
-*   Section 77.7 -- Using Git and GitHub in RStudio: https://rafalab.github.io/dsbook/rstudio.html#using-git-and-github-in-rstudio
+*   Section 77.7 -- Using Git and GitHub in RStudio: <https://rafalab.github.io/dsbook/rstudio.html#using-git-and-github-in-rstudio>

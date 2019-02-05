@@ -18,7 +18,10 @@ Week 2           Jan-28 – Feb-01      Course toolbox                          
                                                                                                     data-fa-transform="grow-8">        [Mini-homework 2b] (Due: Feb-05 @ 11:59pm)<br>
                                                                                                     </i>][week02-materials]
 
-Week 3           Feb-04 – Feb-08      Data visualization
+Week 3           Feb-04 – Feb-08      Data visualization                                            [<i                                [Reading 3] (Complete by: Feb-11 @ 11:59pm)<br>
+                                                                                                    class="fas fa-chalkboard-teacher"  [Mini-homework 3] (Due: Feb-12 @ 11:59pm)
+                                                                                                    data-fa-transform="grow-8">
+                                                                                                    </i>][week03-materials]
 
 Week 4           Feb-11 – Feb-15      Data visualization
 
@@ -48,9 +51,13 @@ Week 14          Apr-29 – May-03      Final project                           
 
 [Reading 1]:          /assignments/reading01/
 [Reading 2]:          /assignments/reading02/
+[Reading 3]:          /assignments/reading03/
+[Reading 4]:          /assignments/reading04/
 [Mini-homework 1]:    /assignments/minihw01-can-twitter-predict-election-results/
 [Mini-homework 2a]:   /assignments/minihw02a-rmarkdown-practice/
 [Mini-homework 2b]:   /assignments/minihw02b-visualization-practice/
+[Mini-homework 3]:    /assignments/minihw03-visualization-by-example/
 [week01-materials]:   /materials/week01-materials/
 [week02-materials]:   /materials/week02-materials/
+[week03-materials]:   /materials/week03-materials/
 [Module exercises 1]: /assignments/module-exercises01/

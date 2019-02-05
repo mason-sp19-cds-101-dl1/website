@@ -1,0 +1,38 @@
+Title: Reading 4
+Author: Dr. Glasbrenner
+Author_Image: https://www.gravatar.com/avatar/49802fdfa5a0e63b3d932a5179d41c1e
+Date: 2019-02-18 11:59
+Tags: reading
+Slug: reading04
+Status: draft
+Show_summary: false
+Show_link: false
+
+```{r setup, include = FALSE}
+icon_link <- '<i class="fa fa-link"></i>&nbsp;'
+icon_book <- '<i class="fa fa-book" data-fa-transform="grow-4"></i>&nbsp;'
+```
+
+`r icon_book` [R for Data Science]{.h3}
+
+`r icon_link` Book URL: <http://r4ds.had.co.nz>
+
+**Chapter 3: Data visualisation**
+
+*   Section 3.7 -- Statistical transformations: <https://r4ds.had.co.nz/data-visualisation.html#statistical-transformations>
+
+*   Section 3.8 -- Position adjustments: <https://r4ds.had.co.nz/data-visualisation.html#position-adjustments>
+
+*   Section 3.9 -- Coordinate systems: <https://r4ds.had.co.nz/data-visualisation.html#coordinate-systems>
+
+*   Section 3.10 -- The layered grammar of graphics: <https://r4ds.had.co.nz/data-visualisation.html#the-layered-grammar-of-graphics>
+
+`r icon_book` [Introductory Statistics with Randomization and Simulation]{.h3}
+
+`r icon_link` [Click here][isrs-book] to download the textbook.
+
+**Chapter 1: Introduction to data**
+
+*   Section 1.7 -- Considering categorical data
+
+[isrs-book]: /doc/Diez_Barr_%C3%87etinkaya-Rundel_IntroductoryStatisticsWithRandomizationAndSimulation.pdf

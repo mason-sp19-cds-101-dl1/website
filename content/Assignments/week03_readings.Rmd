@@ -1,0 +1,49 @@
+Title: Reading 3
+Author: Dr. Glasbrenner
+Author_Image: https://www.gravatar.com/avatar/49802fdfa5a0e63b3d932a5179d41c1e
+Date: 2019-02-11 11:59
+Tags: reading
+Slug: reading03
+Show_summary: false
+Show_link: false
+
+```{r setup, include = FALSE}
+icon_link <- '<i class="fa fa-link"></i>&nbsp;'
+icon_book <- '<i class="fa fa-book" data-fa-transform="grow-4"></i>&nbsp;'
+```
+
+`r icon_book` [R for Data Science]{.h3}
+
+`r icon_link` Book URL: <http://r4ds.had.co.nz>
+
+**Chapter 3: Data visualisation**
+
+*   Section 3.1 -- Introduction: <https://r4ds.had.co.nz/data-visualisation.html#introduction-1>, skip subsection 3.1.1
+
+*   Section 3.2 -- First steps: <https://r4ds.had.co.nz/data-visualisation.html#first-steps>
+
+*   Section 3.3 -- Aesthetic mappings: <https://r4ds.had.co.nz/data-visualisation.html#aesthetic-mappings>
+
+*   Section 3.4 -- Common problems: <https://r4ds.had.co.nz/data-visualisation.html#common-problems>
+
+*   Section 3.5 -- Facets: <https://r4ds.had.co.nz/data-visualisation.html#facets>
+
+*   Section 3.6 -- Geometric objects: <https://r4ds.had.co.nz/data-visualisation.html#geometric-objects>
+
+`r icon_book` [Introductory Statistics with Randomization and Simulation]{.h3}
+
+`r icon_link` [Click here][isrs-book] to download the textbook.
+
+**Chapter 1: Introduction to data**
+
+*   Section 1.6 -- Examining numerical data, *skip subsection 1.6.8*
+
+`r icon_book` [Introduction to computational and data sciences supplemental book]{.h3}
+
+`r icon_link` Book URL: <http://book.cds101.com>
+
+**Chapter 3: Describing numerical data**
+
+*   Full chapter (short): <http://book.cds101.com/describing-numerical-data.html>
+
+[isrs-book]: /doc/Diez_Barr_%C3%87etinkaya-Rundel_IntroductoryStatisticsWithRandomizationAndSimulation.pdf
