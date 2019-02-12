@@ -1,7 +1,7 @@
 Title: Spring 2019 Schedule
 Author: Dr. Glasbrenner
 Date: 2019-01-22 08:00
-Modified: 2019-01-28 08:00
+Modified: 2019-02-11 08:00
 Index_save_as: index.html
 Url: /index.html
 
@@ -23,7 +23,10 @@ Week 3           Feb-04 – Feb-08      Data visualization                      
                                                                                                     data-fa-transform="grow-8">
                                                                                                     </i>][week03-materials]
 
-Week 4           Feb-11 – Feb-15      Data visualization
+Week 4           Feb-11 – Feb-15      Data visualization                                            [<i                                [Reading 4] (Complete by: Feb-18 @ 11:59pm)<br>
+                                                                                                    class="fas fa-chalkboard-teacher"  [Homework 1] (Due: Feb-26 @ 11:59pm)
+                                                                                                    data-fa-transform="grow-8">
+                                                                                                    </i>][week04-materials]
 
 Week 5           Feb-18 – Feb-22      Data transformation
                                                                                                     
@@ -53,6 +56,7 @@ Week 14          Apr-29 – May-03      Final project                           
 [Reading 2]:          /assignments/reading02/
 [Reading 3]:          /assignments/reading03/
 [Reading 4]:          /assignments/reading04/
+[Homework 1]:         /assignments/homework-1/
 [Mini-homework 1]:    /assignments/minihw01-can-twitter-predict-election-results/
 [Mini-homework 2a]:   /assignments/minihw02a-rmarkdown-practice/
 [Mini-homework 2b]:   /assignments/minihw02b-visualization-practice/
@@ -60,4 +64,5 @@ Week 14          Apr-29 – May-03      Final project                           
 [week01-materials]:   /materials/week01-materials/
 [week02-materials]:   /materials/week02-materials/
 [week03-materials]:   /materials/week03-materials/
+[week04-materials]:   /materials/week04-materials/
 [Module exercises 1]: /assignments/module-exercises01/
