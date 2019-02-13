@@ -4,7 +4,6 @@ Author_Image: https://www.gravatar.com/avatar/49802fdfa5a0e63b3d932a5179d41c1e
 Date: 2019-02-26 23:59
 Tags: homework
 Slug: homework-1
-Status: draft
 Summary: Your first major assignment is a set of exercises based around a single dataset called <span class="monospace">rail_trail</span>, which will provide you with practice in creating visualizations using R and <code>ggplot2</code>.
 Show_summary: true
 Show_link: true
