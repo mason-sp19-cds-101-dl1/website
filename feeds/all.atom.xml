@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CDS 101 - DL1: Introduction to Computational and Data Sciences</title><link href="http://sp19-dl1.cds101.com/" rel="alternate"></link><link href="http://sp19-dl1.cds101.com/feeds/all.atom.xml" rel="self"></link><id>http://sp19-dl1.cds101.com/</id><updated>2019-02-12T23:59:00-05:00</updated><entry><title>Visualization by example</title><link href="http://sp19-dl1.cds101.com/assignments/minihw03-visualization-by-example/" rel="alternate"></link><published>2019-02-12T23:59:00-05:00</published><updated>2019-02-12T23:59:00-05:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-02-12:/assignments/minihw03-visualization-by-example/</id><summary type="html">A mini-homework for practicing how to make plots using the ggplot2&amp;nbsp;library.</summary><content type="html">&lt;p&gt;&lt;span class="h3"&gt;&lt;strong&gt;Due:&lt;/strong&gt; February 12, 2019 @&amp;nbsp;11:59pm&lt;/span&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CDS 101 - DL1: Introduction to Computational and Data Sciences</title><link href="http://sp19-dl1.cds101.com/" rel="alternate"></link><link href="http://sp19-dl1.cds101.com/feeds/all.atom.xml" rel="self"></link><id>http://sp19-dl1.cds101.com/</id><updated>2019-02-18T11:59:00-05:00</updated><entry><title>Reading 4</title><link href="http://sp19-dl1.cds101.com/assignments/reading04/" rel="alternate"></link><published>2019-02-18T11:59:00-05:00</published><updated>2019-02-18T11:59:00-05:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-02-18:/assignments/reading04/</id><summary type="html">&lt;p&gt;&lt;i class="fa fa-book" data-fa-transform="grow-4"&gt;&lt;/i&gt;  &lt;span class="h3"&gt;R for Data&amp;nbsp;Science&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class="fa fa-link"&gt;&lt;/i&gt;  Book &lt;span class="caps"&gt;URL&lt;/span&gt;: &lt;a href="http://r4ds.had.co.nz" class="uri"&gt;http://r4ds.had.co.nz&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Chapter 3: Data&amp;nbsp;visualisation&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Section 3.7 – Statistical transformations: &lt;a href="https://r4ds.had.co.nz/data-visualisation.html#statistical-transformations" class="uri"&gt;https://r4ds.had.co.nz/data-visualisation.html#statistical-transformations&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Section 3.8 – Position adjustments: &lt;a href="https://r4ds.had.co.nz/data-visualisation.html#position-adjustments" class="uri"&gt;https://r4ds.had.co.nz/data-visualisation.html#position-adjustments&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Section 3.9 – Coordinate systems: &lt;a href="https://r4ds.had.co.nz/data-visualisation.html#coordinate-systems" class="uri"&gt;https://r4ds.had.co …&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;&lt;i class="fa fa-book" data-fa-transform="grow-4"&gt;&lt;/i&gt;  &lt;span class="h3"&gt;R for Data&amp;nbsp;Science&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class="fa fa-link"&gt;&lt;/i&gt;  Book &lt;span class="caps"&gt;URL&lt;/span&gt;: &lt;a href="http://r4ds.had.co.nz" class="uri"&gt;http://r4ds.had.co.nz&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Chapter 3: Data&amp;nbsp;visualisation&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Section 3.7 – Statistical transformations: &lt;a href="https://r4ds.had.co.nz/data-visualisation.html#statistical-transformations" class="uri"&gt;https://r4ds.had.co.nz/data-visualisation.html#statistical-transformations&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Section 3.8 – Position adjustments: &lt;a href="https://r4ds.had.co.nz/data-visualisation.html#position-adjustments" class="uri"&gt;https://r4ds.had.co.nz/data-visualisation.html#position-adjustments&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Section 3.9 – Coordinate systems: &lt;a href="https://r4ds.had.co.nz/data-visualisation.html#coordinate-systems" class="uri"&gt;https://r4ds.had.co.nz/data-visualisation.html#coordinate-systems&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Section 3.10 – The layered grammar of graphics: &lt;a href="https://r4ds.had.co.nz/data-visualisation.html#the-layered-grammar-of-graphics" class="uri"&gt;https://r4ds.had.co.nz/data-visualisation.html#the-layered-grammar-of-graphics&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class="fa fa-book" data-fa-transform="grow-4"&gt;&lt;/i&gt;  &lt;span class="h3"&gt;Introductory Statistics with Randomization and&amp;nbsp;Simulation&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class="fa fa-link"&gt;&lt;/i&gt;  &lt;a href="/doc/Diez_Barr_%C3%87etinkaya-Rundel_IntroductoryStatisticsWithRandomizationAndSimulation.pdf"&gt;Click here&lt;/a&gt; to download the&amp;nbsp;textbook.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Chapter 1: Introduction to&amp;nbsp;data&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Section 1.7 – Considering categorical&amp;nbsp;data&lt;/li&gt;
+&lt;/ul&gt;
+</content><category term="reading"></category></entry><entry><title>Visualization by example</title><link href="http://sp19-dl1.cds101.com/assignments/minihw03-visualization-by-example/" rel="alternate"></link><published>2019-02-12T23:59:00-05:00</published><updated>2019-02-12T23:59:00-05:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-02-12:/assignments/minihw03-visualization-by-example/</id><summary type="html">A mini-homework for practicing how to make plots using the ggplot2&amp;nbsp;library.</summary><content type="html">&lt;p&gt;&lt;span class="h3"&gt;&lt;strong&gt;Due:&lt;/strong&gt; February 12, 2019 @&amp;nbsp;11:59pm&lt;/span&gt;&lt;/p&gt;
 &lt;div class="no-bullets"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://classroom.github.com/a/tUYQ31gC"&gt;&lt;i class="fab fa-github-alt" data-fa-transform="grow-8"&gt;&lt;/i&gt;  GitHub Classroom repo for &lt;strong&gt;Mini-homework 3 – Visualization by&amp;nbsp;example&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
@@ -113,7 +134,37 @@ ggplot(data=iris) +
 &lt;ul&gt;
 &lt;li&gt;Full chapter (short): &lt;a href="http://book.cds101.com/describing-numerical-data.html" class="uri"&gt;http://book.cds101.com/describing-numerical-data.html&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content><category term="reading"></category></entry><entry><title>R Markdown practice</title><link href="http://sp19-dl1.cds101.com/assignments/minihw02a-rmarkdown-practice/" rel="alternate"></link><published>2019-02-05T23:59:00-05:00</published><updated>2019-02-05T23:59:00-05:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-02-05:/assignments/minihw02a-rmarkdown-practice/</id><summary type="html">A mini-homework on editing R Markdown files and saving to&amp;nbsp;GitHub.</summary><content type="html">&lt;p&gt;&lt;span class="h3"&gt;&lt;strong&gt;Due:&lt;/strong&gt; February 5, 2019 @&amp;nbsp;11:59pm&lt;/span&gt;&lt;/p&gt;
+</content><category term="reading"></category></entry><entry><title>Week 4 – Data visualization</title><link href="http://sp19-dl1.cds101.com/materials/week04-materials/" rel="alternate"></link><published>2019-02-11T08:00:00-05:00</published><updated>2019-02-11T08:00:00-05:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-02-11:/materials/week04-materials/</id><summary type="html">&lt;p&gt;&lt;span class="h2"&gt;Readings&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/assignments/reading04/"&gt;&lt;i class="fa fa-book" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;Reading 4&lt;/span&gt;&lt;/a&gt; (Complete by:&amp;nbsp;Feb-18)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style="margin-bottom: 1em"&gt;
+
+&lt;/div&gt;
+&lt;p&gt;&lt;span class="h2"&gt;Homeworks&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/assignments/homework-1/"&gt;&lt;i class="fa fa-pen-square" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;Homework 1 – Rail trail&lt;/span&gt;&lt;/a&gt; (Due: Feb-26 @&amp;nbsp;11:59pm)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><content type="html">&lt;p&gt;&lt;span class="h2"&gt;Readings&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/assignments/reading04/"&gt;&lt;i class="fa fa-book" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;Reading 4&lt;/span&gt;&lt;/a&gt; (Complete by:&amp;nbsp;Feb-18)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style="margin-bottom: 1em"&gt;
+
+&lt;/div&gt;
+&lt;p&gt;&lt;span class="h2"&gt;Homeworks&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/assignments/homework-1/"&gt;&lt;i class="fa fa-pen-square" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;Homework 1 – Rail trail&lt;/span&gt;&lt;/a&gt; (Due: Feb-26 @&amp;nbsp;11:59pm)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content><category term="class notes"></category></entry><entry><title>R Markdown practice</title><link href="http://sp19-dl1.cds101.com/assignments/minihw02a-rmarkdown-practice/" rel="alternate"></link><published>2019-02-05T23:59:00-05:00</published><updated>2019-02-05T23:59:00-05:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-02-05:/assignments/minihw02a-rmarkdown-practice/</id><summary type="html">A mini-homework on editing R Markdown files and saving to&amp;nbsp;GitHub.</summary><content type="html">&lt;p&gt;&lt;span class="h3"&gt;&lt;strong&gt;Due:&lt;/strong&gt; February 5, 2019 @&amp;nbsp;11:59pm&lt;/span&gt;&lt;/p&gt;
 &lt;div class="no-bullets"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="/doc/minihw02a_rmarkdown_practice_final_output.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-8"&gt;&lt;/i&gt;  &lt;span class="monospace"&gt;minihw02a_rmarkdown_practice_final_output.pdf&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
@@ -435,7 +486,7 @@ ggplot(data=iris) +
 &lt;li&gt;&lt;a href="/doc/reproducible_toolbox_02_reproducible_research_toolkit.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;02 - Reproducible research&amp;nbsp;toolkit&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</content><category term="class notes"></category></entry><entry><title>Spring 2019 Schedule</title><link href="http://sp19-dl1.cds101.com//index.html" rel="alternate"></link><published>2019-01-22T08:00:00-05:00</published><updated>2019-01-28T08:00:00-05:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-01-22://index.html</id><summary type="html">&lt;table&gt;
+</content><category term="class notes"></category></entry><entry><title>Spring 2019 Schedule</title><link href="http://sp19-dl1.cds101.com//index.html" rel="alternate"></link><published>2019-01-22T08:00:00-05:00</published><updated>2019-02-11T08:00:00-05:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-01-22://index.html</id><summary type="html">&lt;table&gt;
 &lt;colgroup&gt;
 &lt;col style="width: 9%" /&gt;
 &lt;col style="width: 11%" /&gt;
@@ -518,8 +569,10 @@ data-fa-transform="grow-8"&gt; &lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;Week 4&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;Feb-11 – Feb-15&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;Data visualization&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href="/materials/week04-materials/"&gt;&lt;i
+class="fas fa-chalkboard-teacher"
+data-fa-transform="grow-8"&gt; &lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;&lt;a href="/assignments/reading04/"&gt;Reading 4&lt;/a&gt; (Complete by: Feb-18 @ 11:59pm)&lt;br&gt; &lt;a href="/assignments/homework-1/"&gt;Homework 1&lt;/a&gt; (Due: Feb-26 @ 11:59pm)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class="odd"&gt;
 &lt;td style="text-align: left;"&gt;Week 5&lt;/td&gt;
