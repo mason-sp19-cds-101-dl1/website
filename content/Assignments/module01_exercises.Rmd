@@ -1,10 +1,13 @@
-Title: Module exercises 1
+Title: Module 1 exercises
 Author: Dr. Glasbrenner
 Date: 2019-01-29 23:59
 Tags: module-exercise
-Slug: module-exercises01
-Show_summary: false
-Show_link: false
+Slug: module01-exercises
+Summary: For this module exercise, you will answer a series of questions that check your understanding of the material covered in the Module 1 lecture videos.
+Show_summary: true
+Show_link: true
+
+[**Due:** January 29, 2019 @ 11:59pm]{.h3}
 
 ## Instructions
 
