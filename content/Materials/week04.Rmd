@@ -27,7 +27,7 @@ icon_laptop <- '<i class="fa fa-laptop" data-fa-transform="grow-16"></i>&nbsp;'
 [Homeworks]{.h2}
 
 ::: {.no-bullets}
-*   [`r icon_pen` &nbsp; [Homework 1 -- Rail trail]{.card-downloads-format}][homework01] (Due: Feb-26 @ 11:59pm)
+*   [`r icon_pencil` &nbsp; [Homework 1 -- Rail trail]{.card-downloads-format}][homework01] (Due: Feb-26 @ 11:59pm)
 :::
 
 [reading04]:  /assignments/reading04/

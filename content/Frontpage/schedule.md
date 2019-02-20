@@ -1,7 +1,7 @@
 Title: Spring 2019 Schedule
 Author: Dr. Glasbrenner
 Date: 2019-01-22 08:00
-Modified: 2019-02-18 08:00
+Modified: 2019-03-04 08:00
 Index_save_as: index.html
 Url: /index.html
 
@@ -34,7 +34,7 @@ Week 5           Feb-18 – Feb-22      Data transformation                     
                                                                                                     </i>][week05-materials]
                                                                                                     
 Week 6           Feb-25 – Feb-29      Data transformation                                           [<i                                [Reading 6] (Complete by: Mar-01 @ 11:59pm)<br>
-                                                                                                    class="fas fa-chalkboard-teacher"  Homework 2 (coming soon)
+                                                                                                    class="fas fa-chalkboard-teacher"  [Homework 2] (Due: Mar-20 @ 11:59pm)
                                                                                                     data-fa-transform="grow-8">
                                                                                                     </i>][week06-materials]
 
