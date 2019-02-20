@@ -1,0 +1,23 @@
+Title: Reading 6
+Author: Dr. Glasbrenner
+Author_Image: https://www.gravatar.com/avatar/49802fdfa5a0e63b3d932a5179d41c1e
+Date: 2019-03-01 11:59
+Tags: reading
+Slug: reading06
+Show_summary: false
+Show_link: false
+
+```{r setup, include = FALSE}
+icon_link <- '<i class="fa fa-link"></i>&nbsp;'
+icon_book <- '<i class="fa fa-book" data-fa-transform="grow-4"></i>&nbsp;'
+```
+
+`r icon_book` [R for Data Science]{.h3}
+
+`r icon_link` Book URL: <http://r4ds.had.co.nz>
+
+**Chapter 5: Data transformation**
+
+*   Section 5.6 -- Grouped summaries with `summarise()`: <https://r4ds.had.co.nz/transform.html#grouped-summaries-with-summarise>
+
+*   Section 5.7 -- Grouped mutates (and filters): <https://r4ds.had.co.nz/transform.html#grouped-mutates-and-filters>
