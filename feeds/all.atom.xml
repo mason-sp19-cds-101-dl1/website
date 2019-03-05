@@ -1,5 +1,272 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CDS 101 - DL1: Introduction to Computational and Data Sciences</title><link href="http://sp19-dl1.cds101.com/" rel="alternate"></link><link href="http://sp19-dl1.cds101.com/feeds/all.atom.xml" rel="self"></link><id>http://sp19-dl1.cds101.com/</id><updated>2019-03-01T11:59:00-05:00</updated><entry><title>Reading 6</title><link href="http://sp19-dl1.cds101.com/assignments/reading06/" rel="alternate"></link><published>2019-03-01T11:59:00-05:00</published><updated>2019-03-01T11:59:00-05:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-03-01:/assignments/reading06/</id><summary type="html">&lt;p&gt;&lt;i class="fa fa-book" data-fa-transform="grow-4"&gt;&lt;/i&gt;  &lt;span class="h3"&gt;R for Data&amp;nbsp;Science&lt;/span&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CDS 101 - DL1: Introduction to Computational and Data Sciences</title><link href="http://sp19-dl1.cds101.com/" rel="alternate"></link><link href="http://sp19-dl1.cds101.com/feeds/all.atom.xml" rel="self"></link><id>http://sp19-dl1.cds101.com/</id><updated>2019-03-20T23:59:00-04:00</updated><entry><title>Homework 2</title><link href="http://sp19-dl1.cds101.com/assignments/homework-2/" rel="alternate"></link><published>2019-03-20T23:59:00-04:00</published><updated>2019-03-20T23:59:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-03-20:/assignments/homework-2/</id><summary type="html">For your second major assignment, you will explore a dataset about the passengers on the &lt;em&gt;Titanic&lt;/em&gt;, the British passenger liner that crashed into an iceberg during its maiden voyage and sank early in the morning on April 16,&amp;nbsp;1912.</summary><content type="html">&lt;p&gt;&lt;span class="h3"&gt;&lt;strong&gt;Due:&lt;/strong&gt; March 20, 2019 @&amp;nbsp;11:59pm&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://classroom.github.com/g/f0cpT5Mq"&gt;&lt;i class="fab fa-github-alt" data-fa-transform="grow-8"&gt;&lt;/i&gt;  Github Classroom repo for &lt;strong&gt;Homework&amp;nbsp;2&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h2 id="instructions"&gt;Instructions&lt;/h2&gt;
+&lt;p&gt;The first part of this page explains how homework assignments will be handled and evaluated, since they are completed in groups. The questions for Homework 2 start further down, &lt;a href="#the-titanic-dataset"&gt;click this link to skip to that part of the page&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id="overview"&gt;Overview&lt;/h3&gt;
+&lt;p&gt;As a group, solve the homework problems and write your answers in the R Markdown file &lt;span class="monospace"&gt;homework_2.Rmd&lt;/span&gt;. Grades for the group submissions will, in addition to correctness, be based on document formatting, visualization quality, writing quality, and code style. &lt;strong&gt;This means that your group submission is to be written in the style of a exploratory data report,&amp;nbsp;meaning:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Each exercise must be written up using full sentences such that it is clear what question is being&amp;nbsp;answered.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;There needs to be plain text above each code block explaining what you are doing, and the code blocks should be&amp;nbsp;organized.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The R Markdown file &lt;strong&gt;must&lt;/strong&gt; knit without error and generate a &lt;span class="caps"&gt;PDF&lt;/span&gt; file, and the final &lt;span class="caps"&gt;PDF&lt;/span&gt; output must look nice, clean, and be easy to&amp;nbsp;read.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="participation"&gt;Participation&lt;/h3&gt;
+&lt;p&gt;Credit for group participation will be determined using the following&amp;nbsp;sources:&lt;/p&gt;
+&lt;ol type="1"&gt;
+&lt;li&gt;&lt;p&gt;A &lt;span class="monospace"&gt;&lt;span class="caps"&gt;CONTRIBUTIONS&lt;/span&gt;.md&lt;/span&gt; file distributed with your group&amp;nbsp;repository&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Commit history on&amp;nbsp;GitHub&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Discussion history in your group’s private Slack&amp;nbsp;channel&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Each group will need to fill out the &lt;span class="monospace"&gt;&lt;span class="caps"&gt;CONTRIBUTIONS&lt;/span&gt;.md&lt;/span&gt; file as part of their submission.&lt;/strong&gt; This file is where where each group member lists what he or she contributed to the final submission. Read the section &lt;strong&gt;&lt;a href="#fill-out-the-contributions.md-file"&gt;Fill out the &lt;span class="monospace"&gt;&lt;span class="caps"&gt;CONTRIBUTIONS&lt;/span&gt;.md&lt;/span&gt; file&lt;/a&gt;&lt;/strong&gt; for more details on how this&amp;nbsp;works.&lt;/p&gt;
+&lt;h4 id="google-docs"&gt;Google&amp;nbsp;Docs&lt;/h4&gt;
+&lt;p&gt;If your group used an external document to coordinate and organize your work, such as a Google Doc, then that can also count as evidence of participation, &lt;strong&gt;provided that there is a visible writing history and it is possible to identify which student is responsible for each edit.&lt;/strong&gt; This will require you to share the relevant file with the instructor with full privileges on the document so that it’s possible to review the document’s editing history. Please note that anonymous edits to Google Docs documents cannot be used as participation evidence, since there is no way to verify the account responsible for the added content. Also, for similar reasons, offline documents traded back and forth via email cannot be accepted as evidence of&amp;nbsp;participation.&lt;/p&gt;
+&lt;h3 id="how-to-answer-the-questions-as-a-group"&gt;How to answer the questions as a&amp;nbsp;group&lt;/h3&gt;
+&lt;p&gt;The following is a checklist you may follow to help you get started with answering the questions as a&amp;nbsp;group:&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;i class="far fa-square" data=fa=transform="grow-8"&gt;&lt;/i&gt;  Read through all the problems individually. Then, as a group, discuss what will be needed to fully answer each&amp;nbsp;question.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;i class="far fa-square" data=fa=transform="grow-8"&gt;&lt;/i&gt;  As a group, decide how you will split up writing responsibilities. A typical way to do this is to have each group member be responsible for writing out the full answer to a certain number of&amp;nbsp;questions.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;i class="far fa-square" data=fa=transform="grow-8"&gt;&lt;/i&gt;  &lt;strong&gt;(Important)&lt;/strong&gt; Before you start, make a copy of &lt;span class="monospace"&gt;homework_2.Rmd&lt;/span&gt; and &lt;strong&gt;rename the copied file&lt;/strong&gt; to include your last name. For example, if your last name is Smith, then your file copy should be renamed to &lt;span class="monospace"&gt;homework_2_smith.Rmd&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;i class="far fa-square" data=fa=transform="grow-8"&gt;&lt;/i&gt;  Commit and push your copied file to&amp;nbsp;GitHub.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class="far fa-square" data=fa=transform="grow-8"&gt;&lt;/i&gt;  Draft your contributions in &lt;strong&gt;your&lt;/strong&gt; file. For example, if my last name was Smith and I agreed to write-up the answers to questions 4, 5, and 6, then I would open up &lt;span class="monospace"&gt;homework_2_smith.Rmd&lt;/span&gt; and put my answers there. When I’m done, I would save my file, then commit and push my work to&amp;nbsp;GitHub.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="how-to-edit-and-merge-your-answers-into-the-group-submission"&gt;How to edit and merge your answers into the group&amp;nbsp;submission&lt;/h3&gt;
+&lt;p&gt;While you will be writing your answers in separate files, eventually the group will need to merge in everyone’s answers into the main &lt;span class="monospace"&gt;homework_2.Rmd&lt;/span&gt; document. The following checklist may help with&amp;nbsp;this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;i class="far fa-square" data=fa=transform="grow-8"&gt;&lt;/i&gt;  Select an editor to be in charge of merging everyone’s answers into the final document &lt;span class="monospace"&gt;homework_2.Rmd&lt;/span&gt;. Because the editor needs to prepare the document for submission, it is reasonable if he or she contributes slightly less in terms of answering the questions (for example, if everyone else answers three questions, it would be okay if the editor answers&amp;nbsp;two).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;i class="far fa-square" data=fa=transform="grow-8"&gt;&lt;/i&gt;  The editor should ensure that everyone has committed and pushed their answers to GitHub so they can copy and paste in each&amp;nbsp;contribution.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;i class="far fa-square" data=fa=transform="grow-8"&gt;&lt;/i&gt;  The editor needs to make sure that the final submission reads like a coherent document and that the writing style and code style are uniform across all the answers. In other words, it should read like a single person answered all the questions, not a group of four&amp;nbsp;people.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;i class="far fa-square" data=fa=transform="grow-8"&gt;&lt;/i&gt;  The editor will be in charge of of committing and pushing the final R Markdown file to GitHub, knitting to &lt;span class="caps"&gt;PDF&lt;/span&gt;, and uploading the &lt;span class="caps"&gt;PDF&lt;/span&gt; file on&amp;nbsp;Blackboard.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="fill-out-the-contributions.md-file"&gt;Fill out the &lt;span class="monospace"&gt;&lt;span class="caps"&gt;CONTRIBUTIONS&lt;/span&gt;.md&lt;/span&gt;&amp;nbsp;file&lt;/h3&gt;
+&lt;p&gt;After everything is written up and ready for submission, the last thing the group will need to do is fill out the &lt;span class="monospace"&gt;&lt;span class="caps"&gt;CONTRIBUTIONS&lt;/span&gt;.md&lt;/span&gt; file. By default, the file looks like&amp;nbsp;this:&lt;/p&gt;
+&lt;pre class="markdown"&gt;&lt;code&gt;# Contributions to group submission
+
+## Editor: FirstName LastName Member 1
+
+*   Questions answered:
+
+## FirstName LastName Member 2
+
+*   Questions answered:
+
+## FirstName LastName Member 3
+
+*   Questions answered:
+
+## FirstName LastName Member 4
+
+*   Questions answered:&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;At a minimum, you must remove the &lt;span class="monospace"&gt;FirstName LastName Member&lt;/span&gt; entries in the template and fill in the names of the people in your group, indicate which group member served as the editor, and state which questions were written up by each&amp;nbsp;member.&lt;/p&gt;
+&lt;p&gt;Additional information beyond this &lt;strong&gt;should&lt;/strong&gt; be supplied, such as indicating when a group member helped another group member edit an answer or gave helpful comments in a Slack discussion. For example, one group member’s contribution list may read as&amp;nbsp;follows:&lt;/p&gt;
+&lt;pre class="markdown"&gt;&lt;code&gt;## Jane Smith
+
+*   Questions answered: 4, 5, 6
+*   Helped with editing on answers 8 and 9
+*   Collaborated with group member Jack Williams on answering question 10
+*   Pointed out spelling errors and suggested fixes to the document layout in the merged group document&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id="working-with-a-github-repository-as-a-group"&gt;Working with a GitHub repository as a&amp;nbsp;group&lt;/h3&gt;
+&lt;p&gt;You will likely encounter some issues while working in a group-based GitHub repository. In particular, you might find that when you click &lt;em&gt;“Push”&lt;/em&gt; in the &lt;strong&gt;Git&lt;/strong&gt; tab of RStudio, that it doesn’t seem to work and instead you get an annoying error message! This will happen when another member of your group has uploaded work before you did. While this can be irritating to deal with, this is actually a good thing, as it is GitHub’s way of protecting your files from accidential overwrites and&amp;nbsp;deletions.&lt;/p&gt;
+&lt;p&gt;So what should you do to keep things running smoothly? First, &lt;strong&gt;always&lt;/strong&gt; work in your own file, never in another person’s file. If you are not the editor, then you should not edit &lt;span class="monospace"&gt;homework_2.Rmd&lt;/span&gt; either! Also, do not remove or rename any files that are not your own. Finally, when you are getting ready to work, following the procedure below should help keep the error messages to a&amp;nbsp;minimum:&lt;/p&gt;
+&lt;ol type="1"&gt;
+&lt;li&gt;&lt;p&gt;When you start working, you should begin by going to the &lt;strong&gt;Git&lt;/strong&gt; tab and clicking &lt;em&gt;“Pull”&lt;/em&gt; (notice this is not the same as &lt;em&gt;“Push”&lt;/em&gt;). This will synchronize any new changes that your group may have made into your&amp;nbsp;files.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Work on your file as normal. When you have completed your work, save your&amp;nbsp;file.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Now we want to commit. &lt;strong&gt;But first&lt;/strong&gt;, go to the &lt;strong&gt;Git&lt;/strong&gt; tab and click &lt;em&gt;“Pull”&lt;/em&gt; one more time to check for any other changes. Then, still in the &lt;strong&gt;Git&lt;/strong&gt; tab, click the checkmark next to your updated file, type a message in the messagebox, and click the &lt;strong&gt;Commit&lt;/strong&gt;&amp;nbsp;button.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If the updated file is no longer in the list of files in the &lt;strong&gt;Git&lt;/strong&gt; tab, then your commit was&amp;nbsp;successful.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Click &lt;em&gt;“Push”&lt;/em&gt; to upload your changed&amp;nbsp;file.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id="if-the-above-advice-doesnt-work"&gt;If the above advice doesn’t&amp;nbsp;work…&lt;/h4&gt;
+&lt;p&gt;If, even after following the advice below, you still encounter error messages when Pulling from and Pushing to GitHub, contact the course instructor for&amp;nbsp;help.&lt;/p&gt;
+&lt;h3 id="how-to-submit"&gt;How to&amp;nbsp;submit&lt;/h3&gt;
+&lt;p&gt;The editor should follow the steps below to submit the homework for his/her&amp;nbsp;group.&lt;/p&gt;
+&lt;ol type="1"&gt;
+&lt;li&gt;&lt;p&gt;Make sure that everyone has committed and pushed their R Markdown files so that everything is synchronized to GitHub. If you do this right, then you will be able to view all the completed files on the GitHub&amp;nbsp;website.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Knit your group’s R Markdown document to the &lt;span class="caps"&gt;PDF&lt;/span&gt; format, export (download) the &lt;span class="caps"&gt;PDF&lt;/span&gt; file from RStudio Server, and then upload it to &lt;em&gt;Homework 2&lt;/em&gt; posting on&amp;nbsp;Blackboard.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="the-titanic-dataset"&gt;The Titanic&amp;nbsp;dataset&lt;/h2&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img src="/img/titanic-photograph.jpg" width="300" style="display: block; margin: auto;" /&gt;
+&lt;figcaption style="text-align: center;"&gt;
+A photograph of the &lt;em&gt;Titanic&lt;/em&gt; leaving Southampton on April 10, 1912.
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;For this homework assignment, you will be exploring a dataset about the passengers on the &lt;em&gt;Titanic&lt;/em&gt;, the British passenger liner that crashed into an iceberg during its maiden voyage and sank early in the morning on April 15, 1912. The tragedy stands out as one of the deadliest commercial maritime disasters during peacetime in history. More than half of the passengers and crew died, due in large part to poor safety standards, such as not having enough lifeboats or not ensuring all lifeboats were filled to capacity during&amp;nbsp;evacuation.&lt;/p&gt;
+&lt;p&gt;This dataset presents the most up-to-date knowledge about the passengers that were on the &lt;em&gt;Titanic&lt;/em&gt;, including whether or not they survived. This dataset is frequently used to introduce using machine learning techniques that take multiple inputs and use them to predict an outcome, in this case whether a passenger is likely to have survived. While we won’t be using a machine learning model in this assignment, there is still a lot of information that can be learned by exploring the dataset using the &lt;span class="monospace"&gt;tidyverse&lt;/span&gt;&amp;nbsp;suite.&lt;/p&gt;
+&lt;p&gt;The dataset contains the following variables:&lt;a href="#fn1" class="footnote-ref" id="fnref1"&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;colgroup&gt;
+&lt;col style="width: 14%" /&gt;
+&lt;col style="width: 85%" /&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr class="header"&gt;
+&lt;th style="text-align: left;"&gt;Variable&lt;/th&gt;
+&lt;th style="text-align: left;"&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class="odd"&gt;
+&lt;td style="text-align: left;"&gt;&lt;span class="monospace"&gt;pclass&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Passenger Class (1 = 1st; 2 = 2nd; 3 = 3rd)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td style="text-align: left;"&gt;&lt;span class="monospace"&gt;survival&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Survival (0 = No; 1 = Yes)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td style="text-align: left;"&gt;&lt;span class="monospace"&gt;name&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Name&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td style="text-align: left;"&gt;&lt;span class="monospace"&gt;sex&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Sex&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td style="text-align: left;"&gt;&lt;span class="monospace"&gt;age&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Age&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td style="text-align: left;"&gt;&lt;span class="monospace"&gt;sibsp&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Number of Siblings/Spouses Aboard&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td style="text-align: left;"&gt;&lt;span class="monospace"&gt;parch&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Number of Parents/Children Aboard&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td style="text-align: left;"&gt;&lt;span class="monospace"&gt;ticket&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Ticket Number&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td style="text-align: left;"&gt;&lt;span class="monospace"&gt;fare&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Passenger Fare (British pound)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td style="text-align: left;"&gt;&lt;span class="monospace"&gt;cabin&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Cabin&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td style="text-align: left;"&gt;&lt;span class="monospace"&gt;embarked&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Port of Embarkation (C = Cherbourg; Q = Queenstown; S = Southampton)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td style="text-align: left;"&gt;&lt;span class="monospace"&gt;boat&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Lifeboat&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td style="text-align: left;"&gt;&lt;span class="monospace"&gt;body&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Body Identification Number&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td style="text-align: left;"&gt;&lt;span class="monospace"&gt;home.dest&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Home/Destination&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Also note that the following definitions were used for &lt;span class="monospace"&gt;sibsp&lt;/span&gt; and &lt;span class="monospace"&gt;parch&lt;/span&gt;:&lt;/p&gt;
+&lt;table&gt;
+&lt;colgroup&gt;
+&lt;col style="width: 14%" /&gt;
+&lt;col style="width: 85%" /&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr class="header"&gt;
+&lt;th style="text-align: left;"&gt;Label&lt;/th&gt;
+&lt;th style="text-align: left;"&gt;Definition&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class="odd"&gt;
+&lt;td style="text-align: left;"&gt;Sibling&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Brother, Sister, Stepbrother, or Stepsister of Passenger Aboard Titanic&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td style="text-align: left;"&gt;Spouse&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Husband or Wife of Passenger Aboard Titanic (Mistresses and Fiances Ignored)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td style="text-align: left;"&gt;Parent&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Mother or Father of Passenger Aboard Titanic&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td style="text-align: left;"&gt;Child&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Son, Daughter, Stepson, or Stepdaughter of Passenger Aboard Titanic&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="questions"&gt;Questions&lt;/h2&gt;
+&lt;ol class="example" type="1"&gt;
+&lt;li&gt;&lt;p&gt;Reading in the dataset using &lt;code&gt;read_csv(file = &amp;quot;titanic_dataset.csv&amp;quot;)&lt;/code&gt; causes some of the columns to be converted into inconvenient data types. Fix this so that your later analysis does not run into problems. Use the &lt;code&gt;col_types = cols()&lt;/code&gt; argument within &lt;code&gt;read_csv()&lt;/code&gt; as explained in this section of &lt;em&gt;R for Data Science&lt;/em&gt;, &lt;a href="http://r4ds.had.co.nz/data-import.html#problems" class="uri"&gt;http://r4ds.had.co.nz/data-import.html#problems&lt;/a&gt;, to change the data type defaults for the following&amp;nbsp;columns:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Convert &lt;span class="monospace"&gt;survived&lt;/span&gt; to the logical data&amp;nbsp;type&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Convert &lt;span class="monospace"&gt;pclass&lt;/span&gt; to the character data&amp;nbsp;type&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Convert &lt;span class="monospace"&gt;sibsp&lt;/span&gt; to the character data&amp;nbsp;type&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Convert &lt;span class="monospace"&gt;parch&lt;/span&gt; to the character data&amp;nbsp;type&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After you get the inputs to &lt;code&gt;read_csv()&lt;/code&gt; to work correctly, assign the dataset to a variable called &lt;span class="monospace"&gt;titanic&lt;/span&gt;.&lt;/p&gt;
+&lt;div class="callout secondary"&gt;
+&lt;p&gt;&lt;span class="h4"&gt;Important!&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;You should &lt;strong&gt;not&lt;/strong&gt; try to load the dataset by clicking the file &lt;span class="monospace"&gt;titanic_dataset.csv&lt;/span&gt; in the &lt;em&gt;File Explorer&lt;/em&gt; panel or by using &lt;em&gt;File → Import Dataset&lt;/em&gt;. As an&amp;nbsp;example,&lt;/p&gt;
+&lt;pre class="r"&gt;&lt;code&gt;titanic &amp;lt;- read_csv(file = &amp;quot;titanic_dataset.csv&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;would read the datafile and assign the loaded dataset to a variable called &lt;span class="monospace"&gt;titanic&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Compute how many known passengers were on the Titanic. &lt;em&gt;Do not just print the table, use a function to count the passengers&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A famous directive for evacuating the &lt;em&gt;Titanic&lt;/em&gt; was “women and children first”. Use your &lt;span class="monospace"&gt;dplyr&lt;/span&gt; functions to verify the first part of this statement by counting the number of men and women that survived and that died. Then, using those counts, calculate the fraction of women that survived, &lt;span class="math display"&gt;\[\dfrac{\text{Number of female survivors}}{\text{Total number of female passengers}}\]&lt;/span&gt; and the fraction of men that survived, &lt;span class="math display"&gt;\[\dfrac{\text{Number of male survivors}}{\text{Total number of male passengers}}\]&lt;/span&gt; Do your computations support the idea that women were more likely to survive? Why or why&amp;nbsp;not?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Verify the second part of the “women and children first” directive. This will not be as straightforward as it was in the previous question, as the dataset only contains people’s ages, which can take on many values. By default, there are no columns with labels of &lt;em&gt;child&lt;/em&gt; or &lt;em&gt;adult&lt;/em&gt;, so you will need to create your&amp;nbsp;own.&lt;/p&gt;
+&lt;p&gt;Create a new column named &lt;span class="monospace"&gt;child_or_adult&lt;/span&gt; that uses the age data to label each passenger. For our purposes, we want to label anyone aged 0 – 9 as a child and anyone age 10 and up are as adults. If the age cell is blank (&lt;span class="monospace"&gt;&lt;span class="caps"&gt;NA&lt;/span&gt;&lt;/span&gt;) for a passenger, also label them as an “adult”. Assign this updated dataset to the variable &lt;span class="monospace"&gt;titanic_age_groups&lt;/span&gt;.&lt;/p&gt;
+&lt;div class="callout primary"&gt;
+&lt;p&gt;&lt;span class="h4"&gt;Hint&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;You will need to use the &lt;code&gt;if_else()&lt;/code&gt; function to complete this task. An example usage of &lt;code&gt;if_else()&lt;/code&gt; is the&amp;nbsp;following:&lt;/p&gt;
+&lt;pre class="r"&gt;&lt;code&gt;titanic %&amp;gt;%
+  mutate(
+    cheap_or_expensive = if_else(
+      condition = fare &amp;lt; 15,
+      true = &amp;quot;cheap ticket&amp;quot;,
+      false = &amp;quot;not cheap&amp;quot;,
+      missing = &amp;quot;price unknown&amp;quot;
+    )
+  )&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The input &lt;span class="monospace"&gt;missing&lt;/span&gt; can be used to handle blank entries. In the above example, &lt;span class="monospace"&gt;&lt;span class="caps"&gt;NA&lt;/span&gt;&lt;/span&gt; will be replaced with the text &lt;span class="monospace"&gt;“price unknown”&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Using the &lt;span class="monospace"&gt;titanic_age_groups&lt;/span&gt; dataset you created in the previous question, count the number of children that survived and the number that did not. Do your computations support the idea that children were also more likely to survive? Why or why&amp;nbsp;not?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A passenger’s age group and sex are not the only predictors of survival. For example, social standing and wealth can play a factor in survival. One of the parameters within this dataset acts as a proxy for distinguishing between the upper and lower classes. Which parameter is it? How do you&amp;nbsp;know?&lt;/p&gt;
+&lt;div class="callout primary"&gt;
+&lt;p&gt;&lt;span class="h4"&gt;Hint&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Answering this question does not require you to write any code. If you do not know much about the &lt;em&gt;Titanic&lt;/em&gt;, you may need to look up information to answer this&amp;nbsp;question.&lt;/p&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Group your dataset by &lt;span class="monospace"&gt;sex&lt;/span&gt; and the variable you determined in question 6 and count the number that survived and the number that did not. Create a bar chart that summarizes the data, where &lt;span class="monospace"&gt;survived&lt;/span&gt; is along the horizontal axis and the passenger counts are along the vertical axis. Use the bar chart &lt;code&gt;fill =&lt;/code&gt; aesthetic to break the bar charts down by your variable from question 6. Additionally, facet over the &lt;span class="monospace"&gt;sex&lt;/span&gt; variable. Interpret this visualization and describe any survival patterns that you&amp;nbsp;notice.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Create two&amp;nbsp;visualizations:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The first visualization should be a bar chart displaying the fraction of the passengers that survived for different values of &lt;span class="monospace"&gt;parch&lt;/span&gt;, &lt;span class="math display"&gt;\[\dfrac{\text{For a given parch, the number of survivors}}{\text{Total number of passengers}}.\]&lt;/span&gt; Doing this requires grouping your data properly, counting the number of passengers in each grouping, and then dividing this by the total number of passengers on the&amp;nbsp;ship.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The second visualization should be a bar chart displaying the fraction of the passengers that survived for different values of &lt;span class="monospace"&gt;sibsp&lt;/span&gt;, &lt;span class="math display"&gt;\[\dfrac{\text{For a given sibsp, the number of survivors}}{\text{Total number of passengers}}.\]&lt;/span&gt; Like above, doing this requires grouping your data properly, counting the number of passengers in each grouping, and then dividing this by the total number of passengers on the&amp;nbsp;ship.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Interpret the patterns that you see in the&amp;nbsp;visualizations.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Based on your analysis, write a list of the factors that affected the chances of survival for each passenger. You should be able to identify 4 different attributes that had a noticeable impact on survival. Justify each attribute that you list by referencing back to a table or visualization you created in a previous&amp;nbsp;question.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="cheatsheets"&gt;Cheatsheets&lt;/h2&gt;
+&lt;p&gt;You are encouraged to review and keep the following cheatsheets handy while working on this&amp;nbsp;assignment:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/data-transformation-cheatsheet.pdf"&gt;Data transformation&amp;nbsp;cheatsheet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/data-import-cheatsheet.pdf"&gt;Data import&amp;nbsp;cheatsheet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/ggplot2-cheatsheet.pdf"&gt;ggplot2&amp;nbsp;cheatsheet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/rstudio-IDE-cheatsheet.pdf"&gt;RStudio&amp;nbsp;cheatsheet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/rmarkdown-cheatsheet.pdf"&gt;RMarkdown&amp;nbsp;cheatsheet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/rmarkdown-reference.pdf"&gt;RMarkdown&amp;nbsp;reference&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;section class="footnotes"&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id="fn1"&gt;&lt;p&gt;&lt;a href="http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/titanic.html" class="uri"&gt;http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/titanic.html&lt;/a&gt;&lt;a href="#fnref1" class="footnote-back"&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content><category term="homework"></category></entry><entry><title>Reading 6</title><link href="http://sp19-dl1.cds101.com/assignments/reading06/" rel="alternate"></link><published>2019-03-01T11:59:00-05:00</published><updated>2019-03-01T11:59:00-05:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-03-01:/assignments/reading06/</id><summary type="html">&lt;p&gt;&lt;i class="fa fa-book" data-fa-transform="grow-4"&gt;&lt;/i&gt;  &lt;span class="h3"&gt;R for Data&amp;nbsp;Science&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class="fa fa-link"&gt;&lt;/i&gt;  Book &lt;span class="caps"&gt;URL&lt;/span&gt;: &lt;a href="http://r4ds.had.co.nz" class="uri"&gt;http://r4ds.had.co.nz&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Chapter 5: Data&amp;nbsp;transformation&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -358,7 +625,7 @@
 &lt;p&gt;&lt;span class="h2"&gt;Homeworks&lt;/span&gt;&lt;/p&gt;
 &lt;div class="no-bullets"&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;i class="fas fa-pencil-alt" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;Homework 2 – Titanic (coming&amp;nbsp;soon)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/assignments/homework-2/"&gt;&lt;i class="fas fa-pencil-alt" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;Homework 2 – Titanic&lt;/span&gt;&lt;/a&gt; (Due: Mar-20 @&amp;nbsp;11:59pm)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 </summary><content type="html">&lt;p&gt;&lt;span class="h2"&gt;Readings&lt;/span&gt;&lt;/p&gt;
@@ -373,7 +640,7 @@
 &lt;p&gt;&lt;span class="h2"&gt;Homeworks&lt;/span&gt;&lt;/p&gt;
 &lt;div class="no-bullets"&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;i class="fas fa-pencil-alt" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;Homework 2 – Titanic (coming&amp;nbsp;soon)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/assignments/homework-2/"&gt;&lt;i class="fas fa-pencil-alt" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;Homework 2 – Titanic&lt;/span&gt;&lt;/a&gt; (Due: Mar-20 @&amp;nbsp;11:59pm)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 </content><category term="class notes"></category></entry><entry><title>Reading 4</title><link href="http://sp19-dl1.cds101.com/assignments/reading04/" rel="alternate"></link><published>2019-02-18T11:59:00-05:00</published><updated>2019-02-18T11:59:00-05:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-02-18:/assignments/reading04/</id><summary type="html">&lt;p&gt;&lt;i class="fa fa-book" data-fa-transform="grow-4"&gt;&lt;/i&gt;  &lt;span class="h3"&gt;R for Data&amp;nbsp;Science&lt;/span&gt;&lt;/p&gt;
@@ -662,7 +929,7 @@ ggplot(data=iris) +
 &lt;p&gt;&lt;span class="h2"&gt;Homeworks&lt;/span&gt;&lt;/p&gt;
 &lt;div class="no-bullets"&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="/assignments/homework-1/"&gt;&lt;i class="fa fa-pen-square" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;Homework 1 – Rail trail&lt;/span&gt;&lt;/a&gt; (Due: Feb-26 @&amp;nbsp;11:59pm)&lt;/li&gt;
+&lt;li&gt;&lt;a href="/assignments/homework-1/"&gt;&lt;i class="fas fa-pencil-alt" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;Homework 1 – Rail trail&lt;/span&gt;&lt;/a&gt; (Due: Feb-26 @&amp;nbsp;11:59pm)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 </summary><content type="html">&lt;p&gt;&lt;span class="h2"&gt;Readings&lt;/span&gt;&lt;/p&gt;
@@ -677,7 +944,7 @@ ggplot(data=iris) +
 &lt;p&gt;&lt;span class="h2"&gt;Homeworks&lt;/span&gt;&lt;/p&gt;
 &lt;div class="no-bullets"&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="/assignments/homework-1/"&gt;&lt;i class="fa fa-pen-square" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;Homework 1 – Rail trail&lt;/span&gt;&lt;/a&gt; (Due: Feb-26 @&amp;nbsp;11:59pm)&lt;/li&gt;
+&lt;li&gt;&lt;a href="/assignments/homework-1/"&gt;&lt;i class="fas fa-pencil-alt" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;Homework 1 – Rail trail&lt;/span&gt;&lt;/a&gt; (Due: Feb-26 @&amp;nbsp;11:59pm)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 </content><category term="class notes"></category></entry><entry><title>R Markdown practice</title><link href="http://sp19-dl1.cds101.com/assignments/minihw02a-rmarkdown-practice/" rel="alternate"></link><published>2019-02-05T23:59:00-05:00</published><updated>2019-02-05T23:59:00-05:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-02-05:/assignments/minihw02a-rmarkdown-practice/</id><summary type="html">A mini-homework on editing R Markdown files and saving to&amp;nbsp;GitHub.</summary><content type="html">&lt;p&gt;&lt;span class="h3"&gt;&lt;strong&gt;Due:&lt;/strong&gt; February 5, 2019 @&amp;nbsp;11:59pm&lt;/span&gt;&lt;/p&gt;
@@ -1002,7 +1269,7 @@ ggplot(data=iris) +
 &lt;li&gt;&lt;a href="/doc/reproducible_toolbox_02_reproducible_research_toolkit.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;02 - Reproducible research&amp;nbsp;toolkit&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</content><category term="class notes"></category></entry><entry><title>Spring 2019 Schedule</title><link href="http://sp19-dl1.cds101.com//index.html" rel="alternate"></link><published>2019-01-22T08:00:00-05:00</published><updated>2019-02-18T08:00:00-05:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-01-22://index.html</id><summary type="html">&lt;table&gt;
+</content><category term="class notes"></category></entry><entry><title>Spring 2019 Schedule</title><link href="http://sp19-dl1.cds101.com//index.html" rel="alternate"></link><published>2019-01-22T08:00:00-05:00</published><updated>2019-03-04T08:00:00-05:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-01-22://index.html</id><summary type="html">&lt;table&gt;
 &lt;colgroup&gt;
 &lt;col style="width: 9%" /&gt;
 &lt;col style="width: 11%" /&gt;
@@ -1106,7 +1373,7 @@ data-fa-transform="grow-8"&gt; &lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href="/materials/week06-materials/"&gt;&lt;i
 class="fas fa-chalkboard-teacher"
 data-fa-transform="grow-8"&gt; &lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;&lt;a href="/assignments/reading06/"&gt;Reading 6&lt;/a&gt; (Complete by: Mar-01 @ 11:59pm)&lt;br&gt; Homework 2 (coming soon)&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;&lt;a href="/assignments/reading06/"&gt;Reading 6&lt;/a&gt; (Complete by: Mar-01 @ 11:59pm)&lt;br&gt; &lt;a href="/assignments/homework-2/"&gt;Homework 2&lt;/a&gt; (Due: Mar-20 @ 11:59pm)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class="odd"&gt;
 &lt;td style="text-align: left;"&gt;Week 7&lt;/td&gt;
