@@ -27,7 +27,7 @@ icon_laptop <- '<i class="fa fa-laptop" data-fa-transform="grow-16"></i>&nbsp;'
 [Homeworks]{.h2}
 
 ::: {.no-bullets}
-*   `r icon_pencil` &nbsp; [Homework 2 -- Titanic (coming soon)]{.card-downloads-format}
+*   [`r icon_pencil` &nbsp; [Homework 2 -- Titanic]{.card-downloads-format}][homework02] (Due: Mar-20 @ 11:59pm)
 :::
 
 [reading06]:  /assignments/reading06/
