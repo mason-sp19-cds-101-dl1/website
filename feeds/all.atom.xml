@@ -1,5 +1,218 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CDS 101 - DL1: Introduction to Computational and Data Sciences</title><link href="http://sp19-dl1.cds101.com/" rel="alternate"></link><link href="http://sp19-dl1.cds101.com/feeds/all.atom.xml" rel="self"></link><id>http://sp19-dl1.cds101.com/</id><updated>2019-03-20T23:59:00-04:00</updated><entry><title>Homework 2</title><link href="http://sp19-dl1.cds101.com/assignments/homework-2/" rel="alternate"></link><published>2019-03-20T23:59:00-04:00</published><updated>2019-03-20T23:59:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-03-20:/assignments/homework-2/</id><summary type="html">For your second major assignment, you will explore a dataset about the passengers on the &lt;em&gt;Titanic&lt;/em&gt;, the British passenger liner that crashed into an iceberg during its maiden voyage and sank early in the morning on April 16,&amp;nbsp;1912.</summary><content type="html">&lt;p&gt;&lt;span class="h3"&gt;&lt;strong&gt;Due:&lt;/strong&gt; March 20, 2019 @&amp;nbsp;11:59pm&lt;/span&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CDS 101 - DL1: Introduction to Computational and Data Sciences</title><link href="http://sp19-dl1.cds101.com/" rel="alternate"></link><link href="http://sp19-dl1.cds101.com/feeds/all.atom.xml" rel="self"></link><id>http://sp19-dl1.cds101.com/</id><updated>2019-03-29T23:59:00-04:00</updated><entry><title>Tidy Gradebook</title><link href="http://sp19-dl1.cds101.com/assignments/minihw05-tidy-gradebook/" rel="alternate"></link><published>2019-03-29T23:59:00-04:00</published><updated>2019-03-29T23:59:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-03-29:/assignments/minihw05-tidy-gradebook/</id><summary type="html">A mini-homework for practicing how to reshape datasets using the tidyr&amp;nbsp;library.</summary><content type="html">&lt;p&gt;&lt;span class="h3"&gt;&lt;strong&gt;Due:&lt;/strong&gt; March 29, 2019 @&amp;nbsp;11:59pm&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://classroom.github.com/a/XxAIO886"&gt;&lt;i class="fab fa-github-alt" data-fa-transform="grow-8"&gt;&lt;/i&gt;  GitHub Classroom repo for &lt;strong&gt;Mini-homework 5 – Tidy&amp;nbsp;Gradebook&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h2 id="instructions"&gt;Instructions&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://classroom.github.com/a/XxAIO886"&gt;Obtain the GitHub repository you will use to complete the mini-homework&lt;/a&gt;, which contains a starter file named &lt;span class="monospace"&gt;tidy_gradebook.Rmd&lt;/span&gt;. This mini-homework will help you become more familiar with reshaping datasets using R by guiding you through some examples. Read the &lt;a href="#about-the-dataset"&gt;About the dataset&lt;/a&gt; section to get some background information on the dataset that you’ll be working with. Each of the below &lt;a href="#exercises"&gt;exercises&lt;/a&gt; are to be completed in the provided spaces within your starter file &lt;span class="monospace"&gt;tidy_gradebook.Rmd&lt;/span&gt;. Then, when you’re ready to submit, follow the directions in the &lt;strong&gt;&lt;a href="#how-to-submit"&gt;How to submit&lt;/a&gt;&lt;/strong&gt; section&amp;nbsp;below.&lt;/p&gt;
+&lt;h2 id="about-the-dataset"&gt;About the&amp;nbsp;dataset&lt;/h2&gt;
+&lt;p&gt;The dataset we are working with in this mini-homework is the &lt;span class="monospace"&gt;gradebook&lt;/span&gt; dataset, a synthetic spreadsheet of student grades for a fictitious course. The gradebook data does not fulfill the tidy data principles, but illustrates a way that an instructor might implement his or her gradebook in spreadsheet software. &lt;strong&gt;Load the dataset by running the setup block at the top of your R Markdown file,&lt;/strong&gt; then inspect the dataset by running &lt;code&gt;View(gradebook)&lt;/code&gt; in the &lt;em&gt;Console&lt;/em&gt;&amp;nbsp;window.&lt;/p&gt;
+&lt;p&gt;This dataset breaks all 3 of the tidy data&amp;nbsp;rules:&lt;/p&gt;
+&lt;ol type="1"&gt;
+&lt;li&gt;Each variable must have its own column.
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;The student names, assignment categories, assignment names, and grades are the variables in the dataset.&lt;/em&gt; &lt;em&gt;Each individual student should not be considered a separate&amp;nbsp;variable.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Each observation must have its own row.
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;A single observation in this dataset should be a single grade given to a student for a specific assignment.&lt;/em&gt; &lt;em&gt;Instead of one grade per row, there are multiple grades per&amp;nbsp;row.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Each value must have its own cell.
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;The student names can be split out into first and last name columns instead of keeping it as a full&amp;nbsp;name.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The student names were generated using the site: &lt;a href="http://listofrandomnames.com" class="uri"&gt;http://listofrandomnames.com&lt;/a&gt;. Any similarity to real names is&amp;nbsp;coincidental.&lt;/p&gt;
+&lt;h2 id="exercises"&gt;Exercises&lt;/h2&gt;
+&lt;p&gt;Our main goal in the exercises below will be to use the &lt;span class="monospace"&gt;tidyr&lt;/span&gt; functions to reshape the dataset so that it fulfills the tidy data principles. Afterwards, we will analyze the&amp;nbsp;dataset.&lt;/p&gt;
+&lt;ol class="example" type="1"&gt;
+&lt;li&gt;&lt;p&gt;To fulfill the tidy data principles, we need to use the &lt;code&gt;gather()&lt;/code&gt; function to convert the student columns into rows so that each row contains a single grade. A template code block for doing this is provided&amp;nbsp;below,&lt;/p&gt;
+&lt;pre class="r"&gt;&lt;code&gt;gradebook_long &amp;lt;- gradebook %&amp;gt;%
+  gather(
+    &amp;lt;students&amp;gt;,
+    key = &amp;quot;&amp;lt;key&amp;gt;&amp;quot;,
+    value = &amp;quot;&amp;lt;value&amp;gt;&amp;quot;
+  )&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To get the code to work, you need to replace &lt;span class="monospace"&gt;&amp;lt;students&amp;gt;&lt;/span&gt; with a list of the student names (don’t forget to also remove the angular brackets &lt;span class="monospace"&gt;&amp;lt;&amp;gt;&lt;/span&gt; when filling in your answer). Then, &lt;span class="monospace"&gt;&amp;lt;key&amp;gt;&lt;/span&gt; and &lt;span class="monospace"&gt;&amp;lt;value&amp;gt;&lt;/span&gt; need to be replaced so that the new column containing the student names is called &lt;span class="monospace"&gt;Name&lt;/span&gt; and the new column containing the assignment grades is called &lt;span class="monospace"&gt;Grades&lt;/span&gt;.&lt;/p&gt;
+&lt;div class="callout primary"&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class="h4"&gt;Hints&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Refer to section 12.3.1 of the &lt;em&gt;R for Data Science&lt;/em&gt; textbook for additional clues on how to use the &lt;code&gt;gather()&lt;/code&gt; function: &lt;a href="https://r4ds.had.co.nz/tidy-data.html#gathering" class="uri"&gt;https://r4ds.had.co.nz/tidy-data.html#gathering&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The names for the student columns contain spaces, so you will need to use backticks when specifying them, for example &lt;span class="monospace"&gt;`Jermaine Gautreau`&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;You shouldn’t need to list all the student names manually. Section 5.4 of &lt;em&gt;R for Data Science&lt;/em&gt; contains a hint for how you can specify a range of column names: &lt;a href="https://r4ds.had.co.nz/transform.html#select" class="uri"&gt;https://r4ds.had.co.nz/transform.html#select&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The &lt;span class="monospace"&gt;Name&lt;/span&gt; column that we created in exercise 1 technically contains two values per cell, i.e. each student’s first name &lt;em&gt;and&lt;/em&gt; last name. We can fix this by using the &lt;code&gt;separate()&lt;/code&gt; function to split the column into two columns. A template code block for doing this is provided&amp;nbsp;below,&lt;/p&gt;
+&lt;pre class="r"&gt;&lt;code&gt;tidy_gradebook &amp;lt;- gradebook_long %&amp;gt;%
+  separate(
+    col = &amp;lt;column to separate&amp;gt;,
+    into = combine(&amp;quot;&amp;lt;name for first column&amp;gt;&amp;quot;, &amp;quot;&amp;lt;name for second column&amp;gt;&amp;quot;),
+    sep = &amp;quot;&amp;lt;separator&amp;gt;&amp;quot;
+  )&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To get the code to work, you need to replace &lt;span class="monospace"&gt;&amp;lt;column to separate&amp;gt;&lt;/span&gt; with the name of the column that you wish to split into two columns (like before, don’t forget to also remove the angular brackets &lt;span class="monospace"&gt;&amp;lt;&amp;gt;&lt;/span&gt; when filling in your answer). Then, &lt;span class="monospace"&gt;&amp;lt;name for first column&amp;gt;&lt;/span&gt; and &lt;span class="monospace"&gt;&amp;lt;name for second column&amp;gt;&lt;/span&gt; need to be replaced so that the new column of first names is called &lt;span class="monospace"&gt;First Name&lt;/span&gt; and the new column of last names is called &lt;span class="monospace"&gt;Last Name&lt;/span&gt;. Finally, &lt;span class="monospace"&gt;&amp;lt;separator&amp;gt;&lt;/span&gt; needs to be replaced with whatever symbol/letter/etc that separates the first and last name of each&amp;nbsp;student.&lt;/p&gt;
+&lt;p&gt;After you’ve obtained your tidy gradebook, take a look at the first several rows using the following code&amp;nbsp;block:&lt;/p&gt;
+&lt;pre class="r"&gt;&lt;code&gt;tidy_gradebook %&amp;gt;%
+  head()&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The data frame we obtain in exercise 2 fulfills the tidy data principles, but it does not resemble how gradebooks are presented. For example, gradebooks in Blackboard have each row correspond to a student and each column correspond to an assignment. To represent our gradebook in this format, we need to use the &lt;code&gt;separate()&lt;/code&gt; function to convert the rows of the &lt;span class="monospace"&gt;Assignment&lt;/span&gt; column into their own columns. Let’s do that now for the sake of&amp;nbsp;practice.&lt;/p&gt;
+&lt;p&gt;The first thing we need to do is drop the &lt;span class="monospace"&gt;Category&lt;/span&gt; column, which is typically stored as metadata and not visible in gradebooks. &lt;strong&gt;Replace the ellipses &lt;span class="monospace"&gt;…&lt;/span&gt; in the code template below so that the &lt;span class="monospace"&gt;Category&lt;/span&gt; column is removed and all the other information&amp;nbsp;remains.&lt;/strong&gt;&lt;/p&gt;
+&lt;pre class="r"&gt;&lt;code&gt;gradebook_no_categories &amp;lt;- tidy_gradebook %&amp;gt;%
+  select(...)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now we are ready to use &lt;code&gt;separate()&lt;/code&gt; to convert the rows in the &lt;span class="monospace"&gt;Assignment&lt;/span&gt; column into multiple columns. A template code block for doing this is provided&amp;nbsp;below,&lt;/p&gt;
+&lt;pre class="r"&gt;&lt;code&gt;blackboard_gradebook &amp;lt;- gradebook_no_categories %&amp;gt;%
+  spread(
+    key = &amp;lt;key&amp;gt;,
+    value = &amp;lt;value&amp;gt;
+  )&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To get the code to work, you need to replace &lt;span class="monospace"&gt;&amp;lt;key&amp;gt;&lt;/span&gt; with the name of the column that contains the &lt;strong&gt;names&lt;/strong&gt; of the columns you will be creating (this means it must be a column containing categorical data). Then, &lt;span class="monospace"&gt;&amp;lt;value&amp;gt;&lt;/span&gt; will be replaced with the name of the column that contains the values (the grades) that are to be placed under each of the&amp;nbsp;columns.&lt;/p&gt;
+&lt;p&gt;After you’ve obtained your “Blackboard-style” gradebook, take a look at the first several rows using the following code&amp;nbsp;block:&lt;/p&gt;
+&lt;pre class="r"&gt;&lt;code&gt;blackboard_gradebook %&amp;gt;%
+  head()&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Now that we have a tidy gradebook, let’s look at the grade distribution for one of the homework assignments, &lt;em&gt;Homework 5&lt;/em&gt;. First, you will need to need to filter the dataset so that it only contains entries for Homework 5. A template code block for doing this is provided&amp;nbsp;below,&lt;/p&gt;
+&lt;pre class="r"&gt;&lt;code&gt;homework5_grades &amp;lt;- tidy_gradebook %&amp;gt;%
+  filter(...)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Replace the ellipses &lt;span class="monospace"&gt;…&lt;/span&gt; so that &lt;span class="monospace"&gt;homework5_grades&lt;/span&gt; only contains rows with grades for &lt;em&gt;Homework 5&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;After you successfully filter the dataset, create a histogram of the grades stored in &lt;span class="monospace"&gt;homework5_grades&lt;/span&gt;.&lt;/strong&gt; The histogram should have a binwidth of 10 and be centered around 0 (use &lt;span class="monospace"&gt;center = 0&lt;/span&gt;). You should be familiar with creating histograms by now, so no template for this&amp;nbsp;one!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Having a tidy dataset makes computing the final grade for each student in the course straightforward. Let’s assume that the category weights are the&amp;nbsp;following:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class="header"&gt;
+&lt;th&gt;Category&lt;/th&gt;
+&lt;th&gt;Weight&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class="odd"&gt;
+&lt;td&gt;Homework&lt;/td&gt;
+&lt;td&gt;30%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td&gt;Quiz&lt;/td&gt;
+&lt;td&gt;20%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td&gt;Midterm Exam&lt;/td&gt;
+&lt;td&gt;25%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td&gt;Final Exam&lt;/td&gt;
+&lt;td&gt;25%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;In order to use this information to compute the final grade for each student, we first need to create a data frame to store the category weights. A template code block for doing this is provided&amp;nbsp;below,&lt;/p&gt;
+&lt;pre class="r"&gt;&lt;code&gt;grade_weights &amp;lt;- tibble(
+  Category = combine(&amp;quot;Homework&amp;quot;, ...),
+  Weight = combine(0.30, ...)
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The first row has been filled in for you. Replace the ellipses &lt;span class="monospace"&gt;…&lt;/span&gt; so that the rest of the categories and weights are present in the &lt;span class="monospace"&gt;grade_weights&lt;/span&gt; data frame. &lt;strong&gt;The spelling and capitalization in the &lt;span class="monospace"&gt;Category&lt;/span&gt; column must exactly match the above&amp;nbsp;table.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Once you have &lt;span class="monospace"&gt;grade_weights&lt;/span&gt; created, we need to import that information into &lt;span class="monospace"&gt;tidy_gradebook&lt;/span&gt;. We can do that using the &lt;code&gt;left_join()&lt;/code&gt; function as&amp;nbsp;follows:&lt;/p&gt;
+&lt;pre class="r"&gt;&lt;code&gt;tidy_gradebook_with_weights &amp;lt;- tidy_gradebook %&amp;gt;%
+  left_join(grade_weights, by = combine(&amp;quot;Category&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Copy and paste this into your R Markdown notebook and verify that &lt;span class="monospace"&gt;tidy_gradebook_with_weights&lt;/span&gt; now contains a column called &lt;span class="monospace"&gt;Weight&lt;/span&gt; with the category&amp;nbsp;weights.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Now that we’ve imported the category weights into our gradebook, we can continue with computing the final grade for each student. Our next step in this calculation is to multiply the category weights and grades columns together using &lt;code&gt;mutate()&lt;/code&gt;. A template code block for doing this is provided&amp;nbsp;below,&lt;/p&gt;
+&lt;pre class="r"&gt;&lt;code&gt;weighted_grades &amp;lt;- tidy_gradebook_with_weights %&amp;gt;%
+  mutate(`Weighted Grade` = ...)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Replace the ellipses &lt;span class="monospace"&gt;…&lt;/span&gt; so that the values in the &lt;span class="monospace"&gt;Grade&lt;/span&gt; and &lt;span class="monospace"&gt;Weight&lt;/span&gt; columns are multiplied&amp;nbsp;together.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Now that we’ve weighted the grades, we can now use &lt;code&gt;group_by()&lt;/code&gt; and &lt;code&gt;summarize()&lt;/code&gt; to compute the average weighted grade for each student and in each category. A template code block for doing this is provided&amp;nbsp;below,&lt;/p&gt;
+&lt;pre class="r"&gt;&lt;code&gt;grades_per_category &amp;lt;- weighted_grades %&amp;gt;%
+  group_by(`First Name`, `Last Name`, Category) %&amp;gt;%
+  summarize(`Category Grade` = ...)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Replace the ellipses &lt;span class="monospace"&gt;…&lt;/span&gt; so that the average of the weighted grades is computed for each student within each grade&amp;nbsp;category.&lt;/p&gt;
+&lt;p&gt;Finally, to compute the final grade, use &lt;code&gt;summarize()&lt;/code&gt; to sum the average weighted grades per category together. A template code block for doing this is provided&amp;nbsp;below,&lt;/p&gt;
+&lt;pre class="r"&gt;&lt;code&gt;final_grades &amp;lt;- grades_per_category %&amp;gt;%
+  summarize(`Final Grade` = ...)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Replace the ellipses &lt;span class="monospace"&gt;…&lt;/span&gt; so that the average weighted grades per category as summed&amp;nbsp;together.&lt;/p&gt;
+&lt;p&gt;Once you’ve computed the final grades, display the first few rows using the following&amp;nbsp;code:&lt;/p&gt;
+&lt;pre class="r"&gt;&lt;code&gt;final_grades %&amp;gt;%
+  head()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Confirm that the first six rows are the&amp;nbsp;following:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class="header"&gt;
+&lt;th style="text-align: left;"&gt;First Name&lt;/th&gt;
+&lt;th style="text-align: left;"&gt;Last Name&lt;/th&gt;
+&lt;th style="text-align: right;"&gt;Final Grade&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class="odd"&gt;
+&lt;td style="text-align: left;"&gt;Anthony&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Capote&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;87.22143&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td style="text-align: left;"&gt;Bryant&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Criddle&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;90.60000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td style="text-align: left;"&gt;Cherie&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Maiden&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;71.17143&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td style="text-align: left;"&gt;Christiana&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Deblois&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;83.22857&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td style="text-align: left;"&gt;Cleveland&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Fromm&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;83.49286&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td style="text-align: left;"&gt;Cliff&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Vankeuren&lt;/td&gt;
+&lt;td style="text-align: right;"&gt;79.81429&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Now that we have the final grades, let’s use a point plot similar to what is shown in Chapter 15.4 of the textbook, &lt;a href="http://r4ds.had.co.nz/factors.html#modifying-factor-order" class="uri"&gt;http://r4ds.had.co.nz/factors.html#modifying-factor-order&lt;/a&gt;, and review how the students&amp;nbsp;did:&lt;/p&gt;
+&lt;pre class="r"&gt;&lt;code&gt;ggplot(final_grades) +
+  geom_point(
+    mapping = aes(
+      x = `Final Grade`,
+      y = fct_reorder(`Last Name`, `Final Grade`)
+    )
+  ) +
+  labs(
+    x = &amp;quot;Final Grade&amp;quot;,
+    y = &amp;quot;Student Name&amp;quot;
+  ) +
+  coord_cartesian(xlim = combine(60, 100))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The figure’s length and width may look distorted by default. To fix this, add &lt;span class="monospace"&gt;fig.asp = 0.85&lt;/span&gt; as an input to your code&amp;nbsp;block,&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;#96;&amp;#96;&amp;#96;{r, fig.asp = 0.85}&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="how-to-submit"&gt;How to&amp;nbsp;submit&lt;/h2&gt;
+&lt;p&gt;To submit your mini-homework, follow the two steps below. Your homework will be graded for credit &lt;strong&gt;after&lt;/strong&gt; you’ve completed both&amp;nbsp;steps!&lt;/p&gt;
+&lt;ol type="1"&gt;
+&lt;li&gt;&lt;p&gt;Save, commit, and push your completed R Markdown file so that everything is synchronized to GitHub. If you do this right, then you will be able to view your completed file on the GitHub&amp;nbsp;website.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Knit your R Markdown document to the &lt;span class="caps"&gt;PDF&lt;/span&gt; format, export (download) the &lt;span class="caps"&gt;PDF&lt;/span&gt; file from RStudio Server, and then upload it to &lt;em&gt;Mini-homework 5&lt;/em&gt; posting on&amp;nbsp;Blackboard.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="cheatsheets"&gt;Cheatsheets&lt;/h2&gt;
+&lt;p&gt;You are encouraged to review and keep the following cheatsheets handy while working on this&amp;nbsp;mini-homework:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/data-transformation-cheatsheet.pdf"&gt;dplyr&amp;nbsp;cheatsheet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/data-visualization-cheatsheet.pdf"&gt;ggplot2&amp;nbsp;cheatsheet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/rstudio-ide-cheatsheet.pdf"&gt;RStudio&amp;nbsp;cheatsheet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/rmarkdown-cheatsheet.pdf"&gt;R Markdown&amp;nbsp;cheatsheet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/rmarkdown-reference.pdf"&gt;R Markdown&amp;nbsp;reference&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content><category term="mini-assignment"></category></entry><entry><title>Reading 7</title><link href="http://sp19-dl1.cds101.com/assignments/reading07/" rel="alternate"></link><published>2019-03-25T11:59:00-04:00</published><updated>2019-03-25T11:59:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-03-25:/assignments/reading07/</id><summary type="html">&lt;p&gt;&lt;i class="fa fa-book" data-fa-transform="grow-4"&gt;&lt;/i&gt;  &lt;span class="h3"&gt;R for Data&amp;nbsp;Science&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class="fa fa-link"&gt;&lt;/i&gt;  Book &lt;span class="caps"&gt;URL&lt;/span&gt;: &lt;a href="http://r4ds.had.co.nz" class="uri"&gt;http://r4ds.had.co.nz&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Chapter 12: Tidy&amp;nbsp;data&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Full chapter: &lt;a href="https://r4ds.had.co.nz/tidy-data.html" class="uri"&gt;https://r4ds.had.co.nz/tidy-data.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</summary><content type="html">&lt;p&gt;&lt;i class="fa fa-book" data-fa-transform="grow-4"&gt;&lt;/i&gt;  &lt;span class="h3"&gt;R for Data&amp;nbsp;Science&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class="fa fa-link"&gt;&lt;/i&gt;  Book &lt;span class="caps"&gt;URL&lt;/span&gt;: &lt;a href="http://r4ds.had.co.nz" class="uri"&gt;http://r4ds.had.co.nz&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Chapter 12: Tidy&amp;nbsp;data&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Full chapter: &lt;a href="https://r4ds.had.co.nz/tidy-data.html" class="uri"&gt;https://r4ds.had.co.nz/tidy-data.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content><category term="reading"></category></entry><entry><title>Homework 2</title><link href="http://sp19-dl1.cds101.com/assignments/homework-2/" rel="alternate"></link><published>2019-03-20T23:59:00-04:00</published><updated>2019-03-20T23:59:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-03-20:/assignments/homework-2/</id><summary type="html">For your second major assignment, you will explore a dataset about the passengers on the &lt;em&gt;Titanic&lt;/em&gt;, the British passenger liner that crashed into an iceberg during its maiden voyage and sank early in the morning on April 16,&amp;nbsp;1912.</summary><content type="html">&lt;p&gt;&lt;span class="h3"&gt;&lt;strong&gt;Due:&lt;/strong&gt; March 20, 2019 @&amp;nbsp;11:59pm&lt;/span&gt;&lt;/p&gt;
 &lt;div class="no-bullets"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://classroom.github.com/g/f0cpT5Mq"&gt;&lt;i class="fab fa-github-alt" data-fa-transform="grow-8"&gt;&lt;/i&gt;  Github Classroom repo for &lt;strong&gt;Homework&amp;nbsp;2&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
@@ -266,7 +479,63 @@ A photograph of the &lt;em&gt;Titanic&lt;/em&gt; leaving Southampton on April 10
 &lt;li id="fn1"&gt;&lt;p&gt;&lt;a href="http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/titanic.html" class="uri"&gt;http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/titanic.html&lt;/a&gt;&lt;a href="#fnref1" class="footnote-back"&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
-</content><category term="homework"></category></entry><entry><title>Reading 6</title><link href="http://sp19-dl1.cds101.com/assignments/reading06/" rel="alternate"></link><published>2019-03-01T11:59:00-05:00</published><updated>2019-03-01T11:59:00-05:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-03-01:/assignments/reading06/</id><summary type="html">&lt;p&gt;&lt;i class="fa fa-book" data-fa-transform="grow-4"&gt;&lt;/i&gt;  &lt;span class="h3"&gt;R for Data&amp;nbsp;Science&lt;/span&gt;&lt;/p&gt;
+</content><category term="homework"></category></entry><entry><title>Week 7 – Data reshaping</title><link href="http://sp19-dl1.cds101.com/materials/week07-materials/" rel="alternate"></link><published>2019-03-18T08:00:00-04:00</published><updated>2019-03-18T08:00:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-03-18:/materials/week07-materials/</id><summary type="html">&lt;p&gt;&lt;span class="h2"&gt;Readings&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/assignments/reading07/"&gt;&lt;i class="fa fa-book" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;Reading 7&lt;/span&gt;&lt;/a&gt; (Complete by: Mar-25 @&amp;nbsp;11:59pm)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style="margin-bottom: 1em"&gt;
+
+&lt;/div&gt;
+&lt;p&gt;&lt;span class="h2"&gt;Homeworks&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/assignments/minihw05-tidy-gradebook/"&gt;&lt;i class="fa fa-pen-square" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;Mini-homework 5 – Tidy Gradebook&lt;/span&gt;&lt;/a&gt; (Due: Mar-29 @&amp;nbsp;11:59pm)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style="margin-bottom: 1em"&gt;
+
+&lt;/div&gt;
+&lt;p&gt;&lt;span class="h2"&gt;Slides&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/data_reshaping_01_principles_of_tidy_data.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;01 - Principles of tidy&amp;nbsp;data&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/data_reshaping_02_the_gather_function.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;02 - The &lt;span class="monospace"&gt;gather&lt;/span&gt;&amp;nbsp;function&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/data_reshaping_03_the_spread_function.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;03 - The &lt;span class="monospace"&gt;spread&lt;/span&gt;&amp;nbsp;function&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/data_reshaping_04_the_separate_function.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;04 - The &lt;span class="monospace"&gt;separate&lt;/span&gt;&amp;nbsp;function&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/doc/data_reshaping_05_the_unite_function.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;05 - The &lt;span class="monospace"&gt;unite&lt;/span&gt;&amp;nbsp;function&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><content type="html">&lt;p&gt;&lt;span class="h2"&gt;Readings&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/assignments/reading07/"&gt;&lt;i class="fa fa-book" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;Reading 7&lt;/span&gt;&lt;/a&gt; (Complete by: Mar-25 @&amp;nbsp;11:59pm)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style="margin-bottom: 1em"&gt;
+
+&lt;/div&gt;
+&lt;p&gt;&lt;span class="h2"&gt;Homeworks&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/assignments/minihw05-tidy-gradebook/"&gt;&lt;i class="fa fa-pen-square" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;Mini-homework 5 – Tidy Gradebook&lt;/span&gt;&lt;/a&gt; (Due: Mar-29 @&amp;nbsp;11:59pm)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style="margin-bottom: 1em"&gt;
+
+&lt;/div&gt;
+&lt;p&gt;&lt;span class="h2"&gt;Slides&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/data_reshaping_01_principles_of_tidy_data.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;01 - Principles of tidy&amp;nbsp;data&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/data_reshaping_02_the_gather_function.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;02 - The &lt;span class="monospace"&gt;gather&lt;/span&gt;&amp;nbsp;function&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/data_reshaping_03_the_spread_function.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;03 - The &lt;span class="monospace"&gt;spread&lt;/span&gt;&amp;nbsp;function&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/data_reshaping_04_the_separate_function.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;04 - The &lt;span class="monospace"&gt;separate&lt;/span&gt;&amp;nbsp;function&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/doc/data_reshaping_05_the_unite_function.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;05 - The &lt;span class="monospace"&gt;unite&lt;/span&gt;&amp;nbsp;function&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content><category term="class notes"></category></entry><entry><title>Reading 6</title><link href="http://sp19-dl1.cds101.com/assignments/reading06/" rel="alternate"></link><published>2019-03-01T11:59:00-05:00</published><updated>2019-03-01T11:59:00-05:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-03-01:/assignments/reading06/</id><summary type="html">&lt;p&gt;&lt;i class="fa fa-book" data-fa-transform="grow-4"&gt;&lt;/i&gt;  &lt;span class="h3"&gt;R for Data&amp;nbsp;Science&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class="fa fa-link"&gt;&lt;/i&gt;  Book &lt;span class="caps"&gt;URL&lt;/span&gt;: &lt;a href="http://r4ds.had.co.nz" class="uri"&gt;http://r4ds.had.co.nz&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Chapter 5: Data&amp;nbsp;transformation&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -1269,7 +1538,7 @@ ggplot(data=iris) +
 &lt;li&gt;&lt;a href="/doc/reproducible_toolbox_02_reproducible_research_toolkit.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;02 - Reproducible research&amp;nbsp;toolkit&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</content><category term="class notes"></category></entry><entry><title>Spring 2019 Schedule</title><link href="http://sp19-dl1.cds101.com//index.html" rel="alternate"></link><published>2019-01-22T08:00:00-05:00</published><updated>2019-03-04T08:00:00-05:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-01-22://index.html</id><summary type="html">&lt;table&gt;
+</content><category term="class notes"></category></entry><entry><title>Spring 2019 Schedule</title><link href="http://sp19-dl1.cds101.com//index.html" rel="alternate"></link><published>2019-01-22T08:00:00-05:00</published><updated>2019-03-19T08:00:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-01-22://index.html</id><summary type="html">&lt;table&gt;
 &lt;colgroup&gt;
 &lt;col style="width: 9%" /&gt;
 &lt;col style="width: 11%" /&gt;
@@ -1376,9 +1645,9 @@ data-fa-transform="grow-8"&gt; &lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;&lt;a href="/assignments/reading06/"&gt;Reading 6&lt;/a&gt; (Complete by: Mar-01 @ 11:59pm)&lt;br&gt; &lt;a href="/assignments/homework-2/"&gt;Homework 2&lt;/a&gt; (Due: Mar-20 @ 11:59pm)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class="odd"&gt;
-&lt;td style="text-align: left;"&gt;Week 7&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;Mar-04 – Mar-08&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;Data reshaping (Tidy data)&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;&lt;em&gt;Midterm exam week&lt;/em&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;Midterm exam&lt;/td&gt;
 &lt;/tr&gt;
@@ -1390,51 +1659,60 @@ data-fa-transform="grow-8"&gt; &lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class="odd"&gt;
-&lt;td style="text-align: left;"&gt;Week 8&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Week 7&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;Mar-18 – Mar-22&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Data reshaping (Tidy data)&lt;/td&gt;
+&lt;td&gt;&lt;a href="/materials/week07-materials/"&gt;&lt;i
+class="fas fa-chalkboard-teacher"
+data-fa-transform="grow-8"&gt; &lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;&lt;a href="/assignments/reading07/"&gt;Reading 7&lt;/a&gt; (Complete by: Mar-25 @ 11:59pm)&lt;br&gt; &lt;a href="/assignments/minihw05-tidy-gradebook/"&gt;Mini-homework 5&lt;/a&gt; (Due: Mar-29 @ 11:59pm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td style="text-align: left;"&gt;Week 8&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Mar-25 – Mar-29&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;Data distributions&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr class="even"&gt;
-&lt;td style="text-align: left;"&gt;Week 9&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;Mar-25 – Mar-29&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;Inference and simulation&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;&lt;/td&gt;
-&lt;/tr&gt;
 &lt;tr class="odd"&gt;
-&lt;td style="text-align: left;"&gt;Week 10&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Week 9&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;Apr-01 – Apr-05&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;Inference and simulation&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class="even"&gt;
-&lt;td style="text-align: left;"&gt;Week 11&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Week 10&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;Apr-08 – Apr-12&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;Inference and simulation&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class="odd"&gt;
-&lt;td style="text-align: left;"&gt;Week 12&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Week 11&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;Apr-15 – Apr-19&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;Modeling&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Inference and simulation&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class="even"&gt;
-&lt;td style="text-align: left;"&gt;Week 13&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Week 12&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;Apr-22 – Apr-26&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;Modeling&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class="odd"&gt;
-&lt;td style="text-align: left;"&gt;Week 14&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Week 13&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;Apr-29 – May-03&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;Final project&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Modeling&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td style="text-align: left;"&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;May-06 – May-10&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;&lt;em&gt;Final project week&lt;/em&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;Final project report (due: May-10 @ 11:59pm)&lt;/td&gt;
 &lt;/tr&gt;
