@@ -1,7 +1,7 @@
 Title: Spring 2019 Schedule
 Author: Dr. Glasbrenner
 Date: 2019-01-22 08:00
-Modified: 2019-03-04 08:00
+Modified: 2019-03-19 08:00
 Index_save_as: index.html
 Url: /index.html
 
@@ -38,23 +38,28 @@ Week 6           Feb-25 – Feb-29      Data transformation                     
                                                                                                     data-fa-transform="grow-8">
                                                                                                     </i>][week06-materials]
 
-Week 7           Mar-04 – Mar-08      Data reshaping (Tidy data)                                                                       Midterm exam
+                 Mar-04 – Mar-08      *Midterm exam week*                                                                              Midterm exam
 
                  Mar-11 – Mar-15      **[Spring Break]{.smallcaps}**
 
-Week 8           Mar-18 – Mar-22      Data distributions
+Week 7           Mar-18 – Mar-22      Data reshaping (Tidy data)                                    [<i                                [Reading 7] (Complete by: Mar-25 @ 11:59pm)<br>
+                                                                                                    class="fas fa-chalkboard-teacher"  [Mini-homework 5] (Due: Mar-29 @ 11:59pm)
+                                                                                                    data-fa-transform="grow-8">
+                                                                                                    </i>][week07-materials]
 
-Week 9           Mar-25 – Mar-29      Inference and simulation
+Week 8           Mar-25 – Mar-29      Data distributions
 
-Week 10          Apr-01 – Apr-05      Inference and simulation
+Week 9           Apr-01 – Apr-05      Inference and simulation
 
-Week 11          Apr-08 – Apr-12      Inference and simulation
+Week 10          Apr-08 – Apr-12      Inference and simulation
 
-Week 12          Apr-15 – Apr-19      Modeling
+Week 11          Apr-15 – Apr-19      Inference and simulation
 
-Week 13          Apr-22 – Apr-26      Modeling
+Week 12          Apr-22 – Apr-26      Modeling
 
-Week 14          Apr-29 – May-03      Final project                                                                                    Final project report (due: May-10 @ 11:59pm)
+Week 13          Apr-29 – May-03      Modeling
+
+                 May-06 – May-10      *Final project week*                                                                             Final project report (due: May-10 @ 11:59pm)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -64,6 +69,7 @@ Week 14          Apr-29 – May-03      Final project                           
 [Reading 4]:          /assignments/reading04/
 [Reading 5]:          /assignments/reading05/
 [Reading 6]:          /assignments/reading06/
+[Reading 7]:          /assignments/reading07/
 [Homework 1]:         /assignments/homework-1/
 [Homework 2]:         /assignments/homework-2/
 [Mini-homework 1]:    /assignments/minihw01-can-twitter-predict-election-results/
@@ -71,11 +77,13 @@ Week 14          Apr-29 – May-03      Final project                           
 [Mini-homework 2b]:   /assignments/minihw02b-visualization-practice/
 [Mini-homework 3]:    /assignments/minihw03-visualization-by-example/
 [Mini-homework 4]:    /assignments/minihw04-flights-of-new-york/
+[Mini-homework 5]:    /assignments/minihw05-tidy-gradebook/
 [week01-materials]:   /materials/week01-materials/
 [week02-materials]:   /materials/week02-materials/
 [week03-materials]:   /materials/week03-materials/
 [week04-materials]:   /materials/week04-materials/
 [week05-materials]:   /materials/week05-materials/
 [week06-materials]:   /materials/week06-materials/
+[week07-materials]:   /materials/week07-materials/
 [Module 1 exercises]: /assignments/module01-exercises/
 [Module 4 exercises]: /assignments/module04-exercises/
