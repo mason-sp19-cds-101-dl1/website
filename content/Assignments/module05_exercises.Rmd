@@ -1,0 +1,25 @@
+Title: Module 5 exercises
+Author: Dr. Glasbrenner
+Date: 2019-03-27 23:59
+Tags: module-exercise
+Slug: module05-exercises
+Status: draft
+Summary: For this module exercise, you will answer a series of questions that check your understanding of the material covered in the Module 5 lecture videos.
+Show_summary: true
+Show_link: true
+
+[**Due:** March 27, 2019 @ 11:59pm]{.h3}
+
+## Instructions
+
+This module exercise is a series of questions **posted on Blackboard** that check your understanding of the material contained in the [week 7 lecture videos][week07-lectures].
+You can go directly to the module exercise on Blackboard by [clicking here][blackboard-module-exercises].
+This should be completed **after** you have finished watching the lecture videos.
+
+::::: {.callout .primary}
+There is no time limit and you may attempt the module exercises up to three times.
+Your grade will be the highest score you receive across your attempts.
+:::::
+
+[week07-lectures]:             /materials/week07-materials/
+[blackboard-module-exercises]: #
