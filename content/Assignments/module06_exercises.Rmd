@@ -1,0 +1,24 @@
+Title: Module 6 exercises
+Author: Dr. Glasbrenner
+Date: 2019-04-03 23:59
+Tags: module-exercise
+Slug: module06-exercises
+Summary: For this module exercise, you will answer a series of questions that check your understanding of the material covered in the data distribution lectures.
+Show_summary: true
+Show_link: true
+
+[**Due:** April 3, 2019 @ 11:59pm]{.h3}
+
+## Instructions
+
+This module exercise is a series of questions **posted on Blackboard** that check your understanding of the material contained in the [data distribution lecture videos][week08-lectures].
+You can go directly to the module exercise on Blackboard by [clicking here][blackboard-module-exercises].
+This should be completed **after** you have finished watching the lecture videos.
+
+::::: {.callout .primary}
+There is no time limit and you may attempt the module exercises up to three times.
+Your grade will be the highest score you receive across your attempts.
+:::::
+
+[week08-lectures]:             /materials/week08-materials/
+[blackboard-module-exercises]: https://mymasonportal.gmu.edu/webapps/blackboard/content/listContent.jsp?course_id=_353678_1&content_id=_8989559_1
