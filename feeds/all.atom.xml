@@ -1,5 +1,282 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CDS 101 - DL1: Introduction to Computational and Data Sciences</title><link href="http://sp19-dl1.cds101.com/" rel="alternate"></link><link href="http://sp19-dl1.cds101.com/feeds/all.atom.xml" rel="self"></link><id>http://sp19-dl1.cds101.com/</id><updated>2019-04-05T23:59:00-04:00</updated><entry><title>Analyzing data distributions</title><link href="http://sp19-dl1.cds101.com/assignments/minihw06-analyzing-data-distributions/" rel="alternate"></link><published>2019-04-05T23:59:00-04:00</published><updated>2019-04-05T23:59:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-04-05:/assignments/minihw06-analyzing-data-distributions/</id><summary type="html">A mini-homework for practicing how to analyze data distributions using basic statistical functions in R, ggplot2, and&amp;nbsp;dplyr.</summary><content type="html">&lt;p&gt;&lt;span class="h3"&gt;&lt;strong&gt;Due:&lt;/strong&gt; April 5, 2019 @&amp;nbsp;11:59pm&lt;/span&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CDS 101 - DL1: Introduction to Computational and Data Sciences</title><link href="http://sp19-dl1.cds101.com/" rel="alternate"></link><link href="http://sp19-dl1.cds101.com/feeds/all.atom.xml" rel="self"></link><id>http://sp19-dl1.cds101.com/</id><updated>2019-04-15T11:59:00-04:00</updated><entry><title>Reading 10</title><link href="http://sp19-dl1.cds101.com/assignments/reading10/" rel="alternate"></link><published>2019-04-15T11:59:00-04:00</published><updated>2019-04-15T11:59:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-04-15:/assignments/reading10/</id><summary type="html">&lt;p&gt;&lt;i class="fa fa-book" data-fa-transform="grow-4"&gt;&lt;/i&gt;  &lt;span class="h3"&gt;Introductory Statistics with Randomization and&amp;nbsp;Simulation&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class="fa fa-link"&gt;&lt;/i&gt;  &lt;a href="/doc/Diez_Barr_%C3%87etinkaya-Rundel_IntroductoryStatisticsWithRandomizationAndSimulation.pdf"&gt;Click here&lt;/a&gt; to download the&amp;nbsp;textbook.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Chapter 2: Foundation for&amp;nbsp;inference&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Section 2.4 – Simulation case&amp;nbsp;studies&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Section 2.5 – Central Limit&amp;nbsp;Theorem&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Chapter 4: Inference for numerical&amp;nbsp;data&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Section 4.5 – Bootstrapping to study the standard deviation (skip subsection&amp;nbsp;4.5.3)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class="fa fa-book" data-fa-transform="grow-4"&gt;&lt;/i&gt;  &lt;span class="h3"&gt;Introduction …&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;i class="fa fa-book" data-fa-transform="grow-4"&gt;&lt;/i&gt;  &lt;span class="h3"&gt;Introductory Statistics with Randomization and&amp;nbsp;Simulation&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class="fa fa-link"&gt;&lt;/i&gt;  &lt;a href="/doc/Diez_Barr_%C3%87etinkaya-Rundel_IntroductoryStatisticsWithRandomizationAndSimulation.pdf"&gt;Click here&lt;/a&gt; to download the&amp;nbsp;textbook.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Chapter 2: Foundation for&amp;nbsp;inference&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Section 2.4 – Simulation case&amp;nbsp;studies&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Section 2.5 – Central Limit&amp;nbsp;Theorem&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Chapter 4: Inference for numerical&amp;nbsp;data&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Section 4.5 – Bootstrapping to study the standard deviation (skip subsection&amp;nbsp;4.5.3)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class="fa fa-book" data-fa-transform="grow-4"&gt;&lt;/i&gt;  &lt;span class="h3"&gt;Introduction to computational and data sciences supplemental&amp;nbsp;book&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class="fa fa-link"&gt;&lt;/i&gt;  Book &lt;span class="caps"&gt;URL&lt;/span&gt;: &lt;a href="http://book.cds101.com" class="uri"&gt;http://book.cds101.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Chapter 5: Statistical inference with&amp;nbsp;infer&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Section 5.1 – Case study: Comparing work travel times: &lt;a href="http://book.cds101.com/case-study-comparing-work-travel-times.html" class="uri"&gt;http://book.cds101.com/case-study-comparing-work-travel-times.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content><category term="reading"></category></entry><entry><title>Who busts the Mythbusters?</title><link href="http://sp19-dl1.cds101.com/assignments/minihw07-who-busts-the-mythbusters/" rel="alternate"></link><published>2019-04-12T23:59:00-04:00</published><updated>2019-04-12T23:59:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-04-12:/assignments/minihw07-who-busts-the-mythbusters/</id><summary type="html">A mini-homework for practicing how to conduct hypothesis tests and calculate confidence intervals using the infer&amp;nbsp;package.</summary><content type="html">&lt;p&gt;&lt;span class="h3"&gt;&lt;strong&gt;Due:&lt;/strong&gt; April 12, 2019 @&amp;nbsp;11:59pm&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://classroom.github.com/a/BsskhAT9"&gt;&lt;i class="fab fa-github-alt" data-fa-transform="grow-8"&gt;&lt;/i&gt;  GitHub Classroom repo for &lt;strong&gt;Mini-homework 7 – Who busts the&amp;nbsp;Mythbusters?&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h2 id="instructions"&gt;Instructions&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://classroom.github.com/a/BsskhAT9"&gt;Obtain the GitHub repository you will use to complete the mini-homework&lt;/a&gt;, which contains a starter file named &lt;span class="monospace"&gt;mythbusters.Rmd&lt;/span&gt;. This mini-homework will guide you through examples demonstrating how to conduct hypothesis tests and calculate confidence intervals using the &lt;span class="monospace"&gt;infer&lt;/span&gt; package. Read the &lt;a href="#about-the-dataset"&gt;About the dataset&lt;/a&gt; section to get some background information on the dataset that you’ll be working with. Each of the below &lt;a href="#exercises"&gt;exercises&lt;/a&gt; are to be completed in the provided spaces within your starter file &lt;span class="monospace"&gt;mythbusters.Rmd&lt;/span&gt;. Then, when you’re ready to submit, follow the directions in the &lt;strong&gt;&lt;a href="#how-to-submit"&gt;How to submit&lt;/a&gt;&lt;/strong&gt; section&amp;nbsp;below.&lt;/p&gt;
+&lt;h2 id="about-the-dataset"&gt;About the&amp;nbsp;dataset&lt;/h2&gt;
+&lt;p&gt;The dataset we are using in this mini-homework comes from an experiment shown on an episode of the &lt;em&gt;Mythbusters&lt;/em&gt; television show&lt;a href="#fn1" class="footnote-ref" id="fnref1"&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;, a science entertainment &lt;span class="caps"&gt;TV&lt;/span&gt; program that aired on the Discovery Channel. The show’s build team, Kari Byron, Scottie Chapman, and Tory Belleci, conducted the experiment in order to test the following&amp;nbsp;hypothesis,&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It becomes more likely for a person to yawn if another person near them&amp;nbsp;yawns.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;To conduct the experiment, the team drove 50 volunteers, one at a time, to a flea market in a van, and one of the team members, would either yawn (treatment) or not yawn (no treatment) during the ride. It was randomly determined ahead of time whether or not Kari yawned. Therefore, the 50 people were split into two randomly assigned&amp;nbsp;groups:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Treatment group:&lt;/strong&gt; 34 people where a person near them&amp;nbsp;yawned&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Control group:&lt;/strong&gt; 16 people where there wasn’t a person yawning near&amp;nbsp;them&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The results of the experiment are presented in the following&amp;nbsp;table,&lt;/p&gt;
+&lt;table class="table" style="width: auto !important; "&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align:left;"&gt;
+group
+&lt;/th&gt;
+&lt;th style="text-align:right;"&gt;
+yawns
+&lt;/th&gt;
+&lt;th style="text-align:right;"&gt;
+total
+&lt;/th&gt;
+&lt;th style="text-align:right;"&gt;
+fraction_yawned
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt;
+Control
+&lt;/td&gt;
+&lt;td style="text-align:right;"&gt;
+4
+&lt;/td&gt;
+&lt;td style="text-align:right;"&gt;
+16
+&lt;/td&gt;
+&lt;td style="text-align:right;"&gt;
+0.2500
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt;
+Treatment
+&lt;/td&gt;
+&lt;td style="text-align:right;"&gt;
+10
+&lt;/td&gt;
+&lt;td style="text-align:right;"&gt;
+34
+&lt;/td&gt;
+&lt;td style="text-align:right;"&gt;
+0.2941
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;They concluded that the myth was confirmed because there was a 4% increase in yawns between the control and treatment groups. However, their analysis did not appear to include a formal hypothesis test, nor did the team discuss how likely it was that random chance alone could generate their results. Without this kind of analysis, we can not meaningfully determine whether the data supports the conclusion that yawning is&amp;nbsp;contagious.&lt;/p&gt;
+&lt;p&gt;Our main activity in this mini-homework will be fact-checking the Mythbusters by carrying out a formal hypothesis test using the &lt;span class="monospace"&gt;infer&lt;/span&gt; package. This will allow us to assess how likely it is that a random chance model could generate the observed experimental results and whether or not the collected data allow us to infer the same conclusion as the &lt;em&gt;Mythbusters&lt;/em&gt; build&amp;nbsp;team.&lt;/p&gt;
+&lt;p&gt;The dataset &lt;span class="monospace"&gt;yawn&lt;/span&gt; contains 3 variables and 50&amp;nbsp;rows,&lt;/p&gt;
+&lt;table&gt;
+&lt;colgroup&gt;
+&lt;col style="width: 8%" /&gt;
+&lt;col style="width: 91%" /&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr class="header"&gt;
+&lt;th&gt;Variable&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class="odd"&gt;
+&lt;td&gt;&lt;span class="monospace"&gt;subject_id&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Integer uniquely identifying an experiment volunteer&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td&gt;&lt;span class="monospace"&gt;yawn&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Whether or not a volunteer yawned, &lt;em&gt;yes&lt;/em&gt; if he/she did, &lt;em&gt;no&lt;/em&gt; if he/she did not&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td&gt;&lt;span class="monospace"&gt;group&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Specifies if the volunteer was part of the &lt;em&gt;Control&lt;/em&gt; group or the &lt;em&gt;Treatment&lt;/em&gt; group&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="exercises"&gt;Exercises&lt;/h2&gt;
+&lt;ol class="example" type="1"&gt;
+&lt;li&gt;&lt;p&gt;Whenever we conduct an experiment, we need to know what variable we will change between the treatment and control groups, and what the kinds of outcomes we will be measuring. Look again as the three variables for this experiment. Which one is the &lt;strong&gt;explanatory&lt;/strong&gt; variable and which one is the &lt;strong&gt;response&lt;/strong&gt; variable? What value in the &lt;strong&gt;response&lt;/strong&gt; value should be classified as a&amp;nbsp;success?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;To conduct the hypothesis test, we need to simulate the null distribution. The null distribution represents the range of outcomes for this experiment if yawning has no effect on the treatment group and is due to random chance alone. To generate a null distribution we need to know how the observed experimental result was calculated, as we will need to repeat this same calculation during our simulations. Review the results table in the &lt;a href="#about-the-dataset"&gt;About the dataset&lt;/a&gt; section again. What quantity should we use or compute in order to build the null distribution? Choose the correct answer&amp;nbsp;below.&lt;/p&gt;
+&lt;ol type="1"&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;The average number of &lt;span class="monospace"&gt;yawns&lt;/span&gt; in the treatment&amp;nbsp;group&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;The average value of &lt;span class="monospace"&gt;fraction_yawned&lt;/span&gt; in the treatment&amp;nbsp;group&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;The average difference in &lt;span class="monospace"&gt;yawns&lt;/span&gt; between the treatment and control&amp;nbsp;groups&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;The average difference in &lt;span class="monospace"&gt;fraction_yawned&lt;/span&gt; between the treatment and control&amp;nbsp;groups&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Running a hypothesis test for this dataset requires us to fill in the following code template that contains four functions from the &lt;span class="monospace"&gt;infer&lt;/span&gt;&amp;nbsp;package,&lt;/p&gt;
+&lt;pre class="r"&gt;&lt;code&gt;yawn_null &amp;lt;- yawn %&amp;gt;%
+  specify(&amp;lt;variable1&amp;gt; ~ &amp;lt;variable2&amp;gt;, success = &amp;quot;...&amp;quot;) %&amp;gt;%
+  hypothesize(null = &amp;quot;...&amp;quot;) %&amp;gt;%
+  generate(reps = ...,  type = &amp;quot;...&amp;quot;) %&amp;gt;%
+  calculate(stat = &amp;quot;...&amp;quot;,  order = combine(&amp;quot;...&amp;quot;, &amp;quot;...&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We will step through filling in this template over the next few&amp;nbsp;questions.&lt;/p&gt;
+&lt;p&gt;We start with the function &lt;code&gt;specify()&lt;/code&gt;, which we see has the following&amp;nbsp;structure,&lt;/p&gt;
+&lt;pre class="r"&gt;&lt;code&gt;specify(&amp;lt;variable1&amp;gt; ~ &amp;lt;variable2&amp;gt;, success = &amp;quot;...&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;span class="monospace"&gt;&amp;lt;variable1&amp;gt;&lt;/span&gt;, &lt;span class="monospace"&gt;&amp;lt;variable2&amp;gt;&lt;/span&gt;, and &lt;span class="monospace"&gt;“…”&lt;/span&gt; are placeholders. Using your answers from Exercise 1, figure out what to fill in for these three placeholders. You only need to write out the &lt;code&gt;specify()&lt;/code&gt; function.&lt;/p&gt;
+&lt;div class="callout primary"&gt;
+&lt;p&gt;&lt;span class="h4"&gt;Hint&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The relationship between the response and explanatory variables is written using a special formula syntax, &lt;span class="monospace"&gt;&amp;lt;variable1&amp;gt;&lt;/span&gt; ~ &lt;span class="monospace"&gt;&amp;lt;variable2&amp;gt;&lt;/span&gt;. The word on the left side of the tilde, &lt;span class="monospace"&gt;&amp;lt;variable1&amp;gt;&lt;/span&gt;, is the response variable. The word on the right side of the tilde, &lt;span class="monospace"&gt;&amp;lt;variable2&amp;gt;&lt;/span&gt;, is the explanatory&amp;nbsp;variable.&lt;/p&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The next step in our code template for generating a null hypothesis is the &lt;code&gt;hypothesize()&lt;/code&gt; function,&lt;/p&gt;
+&lt;pre class="r"&gt;&lt;code&gt;hypothesize(null = &amp;quot;...&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This function only takes one input, and you have two choices for what to use. What input should we&amp;nbsp;use?&lt;/p&gt;
+&lt;div class="callout secondary"&gt;
+&lt;p&gt;&lt;span class="h4"&gt;Values for &lt;span class="monospace"&gt;null&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="monospace"&gt;“independence”&lt;/span&gt;: used when the explanatory and response variables both refer to columns in the&amp;nbsp;dataset.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="monospace"&gt;“point”&lt;/span&gt;: used when we want to compare a column against a reported point estimate (i.e. mean or&amp;nbsp;median).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The third step in our code template is the &lt;code&gt;generate()&lt;/code&gt; function,&lt;/p&gt;
+&lt;pre class="r"&gt;&lt;code&gt;generate(reps = ...,  type = &amp;quot;...&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We use the &lt;span class="monospace"&gt;reps&lt;/span&gt; input to set how many simulation trials we want to run to generate the null distribution. This input should be set equal to an integer value. The more trials we run, the more accurate our simulated range of outcomes will be, although it will also mean it will take our code longer to run. The &lt;span class="monospace"&gt;type&lt;/span&gt; keyword is used to choose the type of simulation that we want to&amp;nbsp;run.&lt;/p&gt;
+&lt;p&gt;Generating a null distribution for this dataset means we want to see what our outcomes will look like if the response variable and explanatory variable have no relationship to each other. If we want to run 10,000 simulations to create the null distribution for this dataset, what should I replace the placeholders&amp;nbsp;with?&lt;/p&gt;
+&lt;div class="callout secondary"&gt;
+&lt;p&gt;&lt;span class="h4"&gt;Values for &lt;span class="monospace"&gt;type&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;There are three choices for &lt;span class="monospace"&gt;type&lt;/span&gt;,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="monospace"&gt;“bootstrap”&lt;/span&gt;: Run the simulation by randomly sampling rows &lt;em&gt;with replacement&lt;/em&gt; from the dataset. The relationship between different columns in each row is&amp;nbsp;preserved.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="monospace"&gt;“permute”&lt;/span&gt;: Run the simulation by randomly shuffling the order of the cells in the explanatory and response variables. This random shuffling procedure is done separately in each column, so the relationship between different columns in each row is not&amp;nbsp;preserved.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="monospace"&gt;“simulate”&lt;/span&gt;: Run the simulation by flipping a weighted coin, meaning that heads or tails may not be equally probable (i.e. the coin may be unfair). This coin, being virtual, may have more than two sides, meaning there are several discrete outcomes that each have certain probabilities of happening. This &lt;span class="monospace"&gt;type&lt;/span&gt; is typically needed if you are using &lt;span class="monospace"&gt;null = “point”&lt;/span&gt; in &lt;code&gt;hypothesize()&lt;/code&gt; and your response variable is&amp;nbsp;categorical.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The last step in our code template is the &lt;code&gt;calculate()&lt;/code&gt; function,&lt;/p&gt;
+&lt;pre class="r"&gt;&lt;code&gt;calculate(stat = &amp;quot;...&amp;quot;,  order = combine(&amp;quot;...&amp;quot;, &amp;quot;...&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The first input &lt;span class="monospace"&gt;stat&lt;/span&gt; is where we specify what exactly it is that we’re calculating, which must mirror how the observed experimental result was calculated. The second input is &lt;span class="monospace"&gt;order&lt;/span&gt; and specifies the order of subtraction between the two groups listed under the &lt;strong&gt;explanatory&lt;/strong&gt;&amp;nbsp;variable.&lt;/p&gt;
+&lt;p&gt;Based on your response to question 2 and the above information, what should I replace the placeholders&amp;nbsp;with?&lt;/p&gt;
+&lt;div class="callout secondary"&gt;
+&lt;p&gt;&lt;span class="h4"&gt;Values for &lt;span class="monospace"&gt;stat&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The available choices for &lt;span class="monospace"&gt;stat&lt;/span&gt; are as&amp;nbsp;follows,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="monospace"&gt;“mean”&lt;/span&gt;: For simulations based on a single numerical variable. Compute the mean of each simulation&amp;nbsp;trial.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="monospace"&gt;“median”&lt;/span&gt;: For simulations based on a single numerical variable. Find the median of each simulation&amp;nbsp;trial.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="monospace"&gt;“sum”&lt;/span&gt;: For simulations based on a single numerical variable. Compute the sum of each simulation&amp;nbsp;trial.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="monospace"&gt;“sd”&lt;/span&gt;: For simulations based on a single numerical variable. Compute the standard deviation of each simulation&amp;nbsp;trial.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="monospace"&gt;“prop”&lt;/span&gt;: For simulations based on a single categorical variable. Count the number of successes and convert this to a fraction&amp;nbsp;(proportion).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="monospace"&gt;“count”&lt;/span&gt;: For simulations based on a single categorical variable. Count the number of&amp;nbsp;successes.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="monospace"&gt;“diff in means”&lt;/span&gt;: Calculate the mean of the numerical response variable for the two groups defined in the categorical explanatory variable. Subtract these two&amp;nbsp;means.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="monospace"&gt;“diff in medians”&lt;/span&gt;: Find the median of the numerical response variable for the two groups defined in the categorical explanatory variable. Subtract these two&amp;nbsp;medians.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="monospace"&gt;“diff in props”&lt;/span&gt;: Calculate the number of successes in the &lt;em&gt;categorical&lt;/em&gt; response variable and convert this to a fraction (proportion) in each of the two groups defined in the &lt;em&gt;categorical&lt;/em&gt; explanatory variable. Subtract these two&amp;nbsp;fractions.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="monospace"&gt;“Chisq”&lt;/span&gt;: Calculate the chi-squared statistic for a response and explanatory variable that are both categorical and contain two or more groups&amp;nbsp;each.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="monospace"&gt;“F”&lt;/span&gt;: Calculate the &lt;em&gt;F&lt;/em&gt; statistic for a numerical response variable and categorical explanatory variable with two or more&amp;nbsp;groups.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="monospace"&gt;“t”&lt;/span&gt;: Calculate the two-sample t-test statistic for a numerical response variable and categorical explanatory variable with two groups. This is similar to the &lt;span class="monospace"&gt;“diff in means”&lt;/span&gt;&amp;nbsp;calculation.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="monospace"&gt;“z”&lt;/span&gt;: Calculate the two-sample z statistic for a numerical response variable and categorical explanatory variable with two groups. It is assumed that the number of samples in your dataset is large, otherwise the &lt;span class="monospace"&gt;“t”&lt;/span&gt; test is preferred. This is similar to the &lt;span class="monospace"&gt;“diff in means”&lt;/span&gt;&amp;nbsp;calculation.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="monospace"&gt;“slope”&lt;/span&gt;: Calculate the slope using linear regression for a response and explanatory variable that are both&amp;nbsp;numerical.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="monospace"&gt;“correlation”&lt;/span&gt;: Calculate the correlation coefficient for a response and explanatory variable that are both&amp;nbsp;numerical.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Take your answers to questions 3 through 6 and combine them to fill in the&amp;nbsp;template,&lt;/p&gt;
+&lt;pre class="r"&gt;&lt;code&gt;yawn_null &amp;lt;- yawn %&amp;gt;%
+  specify(formula = &amp;lt;variable1&amp;gt; ~ &amp;lt;variable2&amp;gt;, success = &amp;quot;...&amp;quot;) %&amp;gt;%
+  hypothesize(null = &amp;quot;...&amp;quot;) %&amp;gt;%
+  generate(reps = ...,  type = &amp;quot;...&amp;quot;) %&amp;gt;%
+  calculate(stat = &amp;quot;...&amp;quot;,  order = combine(&amp;quot;...&amp;quot;, &amp;quot;...&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This will simulate the null distribution for the &lt;span class="monospace"&gt;yawn&lt;/span&gt; experiment. This may take a few seconds to run in&amp;nbsp;RStudio.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Now that we have a simulated null distribution, let’s quantify how likely it is that a random chance model would generate the Mythbuster’s experimental result. We will do this by computing the &lt;em&gt;p&lt;/em&gt;-value of a &lt;strong&gt;one-sided hypothesis test&lt;/strong&gt;, which is just the probability that the result of a simulation trial is the same or more extreme than the experimental result. We will also assume a significance level of &lt;span class="math inline"&gt;\(\alpha = 0.05\)&lt;/span&gt;. &lt;strong&gt;If our &lt;em&gt;p&lt;/em&gt;-value is less than &lt;span class="math inline"&gt;\(\alpha = 0.05\)&lt;/span&gt;&lt;/strong&gt;, then we will conclude that we have sufficient evidence to reject the null hypothesis in favor of the alternative&amp;nbsp;hypothesis.&lt;/p&gt;
+&lt;p&gt;First, let’s use &lt;span class="monospace"&gt;infer&lt;/span&gt; to compute the experimental result for comparison with the null distribution. Fill in the template below with the values you determined for &lt;code&gt;specify()&lt;/code&gt; and &lt;code&gt;calculate()&lt;/code&gt;,&lt;/p&gt;
+&lt;pre class="r"&gt;&lt;code&gt;yawn_obs_stat &amp;lt;- yawn %&amp;gt;%
+  specify(formula = &amp;lt;variable1&amp;gt; ~ &amp;lt;variable2&amp;gt;, success = &amp;quot;...&amp;quot;) %&amp;gt;%
+  calculate(stat = &amp;quot;...&amp;quot;,  order = combine(&amp;quot;...&amp;quot;, &amp;quot;...&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Notice that we just took the template from Exercise 7 and removed the &lt;code&gt;hypothesize()&lt;/code&gt; and &lt;code&gt;generate()&lt;/code&gt; lines.&lt;/p&gt;
+&lt;p&gt;Next, if we wanted to compute the &lt;em&gt;p&lt;/em&gt;-value manually, we would need to count how many simulations gave us a result that was the same or more extreme than the experimental result and then divide by 10,000, which is the total number of simulations we ran. Lucky for us, the &lt;span class="monospace"&gt;infer&lt;/span&gt; package has a convenience function, &lt;code&gt;get_p_value()&lt;/code&gt;, for calculating p-values so that we don’t have to do it manually. To compute the &lt;em&gt;p&lt;/em&gt;-value of a one-sided hypothesis test, we&amp;nbsp;run,&lt;/p&gt;
+&lt;pre class="r"&gt;&lt;code&gt;yawn_null %&amp;gt;%
+  get_p_value(obs_stat = yawn_obs_stat, direction = &amp;quot;right&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To visualize the range of outcomes in the null distribution that are the same or more extreme than &lt;span class="monospace"&gt;yawn_obs_stat&lt;/span&gt;, we&amp;nbsp;run,&lt;/p&gt;
+&lt;pre class="r"&gt;&lt;code&gt;yawn_null %&amp;gt;%
+  visualize() +
+  shade_p_value(obs_stat = yawn_obs_stat, direction = &amp;quot;right&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Based on these results and a significance level of &lt;span class="math inline"&gt;\(\alpha = 0.05\)&lt;/span&gt;, conclude whether or not we have sufficient evidence to reject the null&amp;nbsp;hypothesis.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;It’s often prudent to run a &lt;strong&gt;two-sided hypothesis test&lt;/strong&gt; instead of the one-sided version, as it is more strict and hence stronger evidence is needed before the &lt;span class="math inline"&gt;\(\alpha = 0.05\)&lt;/span&gt; significance threshold is crossed. Switching from a one-sided test to a two-sided test simply requires that you replace &lt;span class="monospace"&gt;direction = “right”&lt;/span&gt; with &lt;span class="monospace"&gt;direction = “both”&lt;/span&gt; in &lt;code&gt;get_p_value()&lt;/code&gt; and &lt;code&gt;shade_p_value()&lt;/code&gt;. Do this and compute the &lt;em&gt;p&lt;/em&gt;-value and visualization for the two-sided hypothesis test. Assuming a significance level of &lt;span class="math inline"&gt;\(\alpha = 0.05\)&lt;/span&gt;, do we have sufficient evidence to reject the null&amp;nbsp;hypothesis?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Our final piece of analysis will be to compute a 95% confidence interval for the experimental result. The 95% confidence interval represents a plausible range of values for the experimental result based on the variability of the dataset. Computing this interval requires us to run a bootstrap simulation. To do this, copy and paste your code from Exercise 7, delete the &lt;code&gt;hypothesize()&lt;/code&gt; line, and change the &lt;span class="monospace"&gt;type&lt;/span&gt; input in &lt;code&gt;generate()&lt;/code&gt; to &lt;span class="monospace"&gt;type = “bootstrap”&lt;/span&gt;. A template is shown&amp;nbsp;below,&lt;/p&gt;
+&lt;pre class="r"&gt;&lt;code&gt;yawn_bootstrap &amp;lt;- yawn %&amp;gt;%
+  specify(formula = &amp;lt;variable1&amp;gt; ~ &amp;lt;variable2&amp;gt;, success = &amp;quot;...&amp;quot;) %&amp;gt;%
+  generate(reps = ..., type = &amp;quot;bootstrap&amp;quot;) %&amp;gt;%
+  calculate(stat = &amp;quot;...&amp;quot;, order = combine(&amp;quot;...&amp;quot;, &amp;quot;...&amp;quot;))&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;We obtain the 95% confidence interval by running the following&amp;nbsp;code,&lt;/p&gt;
+&lt;pre class="r"&gt;&lt;code&gt;yawn_ci &amp;lt;- yawn_bootstrap %&amp;gt;%
+  get_confidence_interval()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To visualize the 95% confidence interval, we run the following&amp;nbsp;code,&lt;/p&gt;
+&lt;pre class="r"&gt;&lt;code&gt;yawn_bootstrap %&amp;gt;%
+  visualize() +
+  shade_confidence_interval(yawn_ci)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After computing and visualizing the confidence interval, &lt;strong&gt;choose the statement that correctly interprets what it means&lt;/strong&gt;,&lt;/p&gt;
+&lt;ol type="1"&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;People in this sample, on average, yawn approximately 23% less to 30% more of the time when someone near them&amp;nbsp;yawns.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;People will, on average, yawn 23% less to 30% more when someone near them&amp;nbsp;yawns.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;A randomly chosen person yawns 23% less to 30% more when someone near them&amp;nbsp;yawns.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;95% of people yawn 23% less to 30% more when someone near them&amp;nbsp;yawns.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="how-to-submit"&gt;How to&amp;nbsp;submit&lt;/h2&gt;
+&lt;p&gt;To submit your mini-homework, follow the two steps below. Your homework will be graded for credit &lt;strong&gt;after&lt;/strong&gt; you’ve completed both&amp;nbsp;steps!&lt;/p&gt;
+&lt;ol type="1"&gt;
+&lt;li&gt;&lt;p&gt;Save, commit, and push your completed R Markdown file so that everything is synchronized to GitHub. If you do this right, then you will be able to view your completed file on the GitHub&amp;nbsp;website.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Knit your R Markdown document to the &lt;span class="caps"&gt;PDF&lt;/span&gt; format, export (download) the &lt;span class="caps"&gt;PDF&lt;/span&gt; file from RStudio Server, and then upload it to &lt;em&gt;Mini-homework 7&lt;/em&gt; posting on&amp;nbsp;Blackboard.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="cheatsheets"&gt;Cheatsheets&lt;/h2&gt;
+&lt;p&gt;You are encouraged to review and keep the following cheatsheets handy while working on this&amp;nbsp;mini-homework:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/data-transformation-cheatsheet.pdf"&gt;dplyr&amp;nbsp;cheatsheet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/data-visualization-cheatsheet.pdf"&gt;ggplot2&amp;nbsp;cheatsheet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/rstudio-ide-cheatsheet.pdf"&gt;RStudio&amp;nbsp;cheatsheet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/rmarkdown-cheatsheet.pdf"&gt;R Markdown&amp;nbsp;cheatsheet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/rmarkdown-reference.pdf"&gt;R Markdown&amp;nbsp;reference&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;section class="footnotes"&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id="fn1"&gt;&lt;p&gt;Season 3, Episode 28, &lt;em&gt;Is Yawning Contagious?&lt;/em&gt;, first aired on March 9, 2005.&lt;a href="#fnref1" class="footnote-back"&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content><category term="mini-assignment"></category></entry><entry><title>Reading 9</title><link href="http://sp19-dl1.cds101.com/assignments/reading09/" rel="alternate"></link><published>2019-04-08T11:59:00-04:00</published><updated>2019-04-08T11:59:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-04-08:/assignments/reading09/</id><summary type="html">&lt;p&gt;&lt;i class="fa fa-book" data-fa-transform="grow-4"&gt;&lt;/i&gt;  &lt;span class="h3"&gt;Introductory Statistics with Randomization and&amp;nbsp;Simulation&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class="fa fa-link"&gt;&lt;/i&gt;  &lt;a href="/doc/Diez_Barr_%C3%87etinkaya-Rundel_IntroductoryStatisticsWithRandomizationAndSimulation.pdf"&gt;Click here&lt;/a&gt; to download the&amp;nbsp;textbook.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Chapter 2: Foundation for&amp;nbsp;inference&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Introduction&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Section 2.1 – Randomization case study: gender&amp;nbsp;discrimination&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Section 2.2 – Randomization case study: opportunity&amp;nbsp;cost&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Section 2.3 – Hypothesis&amp;nbsp;testing&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</summary><content type="html">&lt;p&gt;&lt;i class="fa fa-book" data-fa-transform="grow-4"&gt;&lt;/i&gt;  &lt;span class="h3"&gt;Introductory Statistics with Randomization and&amp;nbsp;Simulation&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class="fa fa-link"&gt;&lt;/i&gt;  &lt;a href="/doc/Diez_Barr_%C3%87etinkaya-Rundel_IntroductoryStatisticsWithRandomizationAndSimulation.pdf"&gt;Click here&lt;/a&gt; to download the&amp;nbsp;textbook.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Chapter 2: Foundation for&amp;nbsp;inference&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Introduction&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Section 2.1 – Randomization case study: gender&amp;nbsp;discrimination&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Section 2.2 – Randomization case study: opportunity&amp;nbsp;cost&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Section 2.3 – Hypothesis&amp;nbsp;testing&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content><category term="reading"></category></entry><entry><title>Analyzing data distributions</title><link href="http://sp19-dl1.cds101.com/assignments/minihw06-analyzing-data-distributions/" rel="alternate"></link><published>2019-04-05T23:59:00-04:00</published><updated>2019-04-05T23:59:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-04-05:/assignments/minihw06-analyzing-data-distributions/</id><summary type="html">A mini-homework for practicing how to analyze data distributions using basic statistical functions in R, ggplot2, and&amp;nbsp;dplyr.</summary><content type="html">&lt;p&gt;&lt;span class="h3"&gt;&lt;strong&gt;Due:&lt;/strong&gt; April 5, 2019 @&amp;nbsp;11:59pm&lt;/span&gt;&lt;/p&gt;
 &lt;div class="no-bullets"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://classroom.github.com/a/nG0ObzIF"&gt;&lt;i class="fab fa-github-alt" data-fa-transform="grow-8"&gt;&lt;/i&gt;  GitHub Classroom repo for &lt;strong&gt;Mini-homework 6 – Analyzing data&amp;nbsp;distributions&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
@@ -223,7 +500,52 @@
 &lt;li&gt;&lt;p&gt;Section 4.1 – Probability mass functions: &lt;a href="http://book.cds101.com/probability-mass-functions.html" class="uri"&gt;http://book.cds101.com/probability-mass-functions.html&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Section 4.2 – Cumulative distribution functions: &lt;a href="http://book.cds101.com/cumulative-distribution-functions.html" class="uri"&gt;http://book.cds101.com/cumulative-distribution-functions.html&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content><category term="reading"></category></entry><entry><title>Tidy Gradebook</title><link href="http://sp19-dl1.cds101.com/assignments/minihw05-tidy-gradebook/" rel="alternate"></link><published>2019-03-29T23:59:00-04:00</published><updated>2019-03-29T23:59:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-03-29:/assignments/minihw05-tidy-gradebook/</id><summary type="html">A mini-homework for practicing how to reshape datasets using the tidyr&amp;nbsp;library.</summary><content type="html">&lt;p&gt;&lt;span class="h3"&gt;&lt;strong&gt;Due:&lt;/strong&gt; March 29, 2019 @&amp;nbsp;11:59pm&lt;/span&gt;&lt;/p&gt;
+</content><category term="reading"></category></entry><entry><title>Week 9 – Inference and simulation</title><link href="http://sp19-dl1.cds101.com/materials/week09-materials/" rel="alternate"></link><published>2019-04-01T08:00:00-04:00</published><updated>2019-04-01T08:00:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-04-01:/materials/week09-materials/</id><summary type="html">&lt;p&gt;&lt;span class="h2"&gt;Readings&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/assignments/reading09/"&gt;&lt;i class="fa fa-book" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;Reading 9&lt;/span&gt;&lt;/a&gt; (Complete by: Apr-8 @&amp;nbsp;11:59pm)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style="margin-bottom: 1em"&gt;
+
+&lt;/div&gt;
+&lt;p&gt;&lt;span class="h2"&gt;Homeworks&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/assignments/minihw07-who-busts-the-mythbusters/"&gt;&lt;i class="fa fa-pen-square" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;Mini-homework 7 – Who busts the Mythbusters?&lt;/span&gt;&lt;/a&gt; (Due: Apr-12 @&amp;nbsp;11:59pm)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;span class="h2"&gt;Slides&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/inference_and_simulation_01_gender_discrimination_case_study.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;01 - Gender discrimination case&amp;nbsp;study&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/inference_and_simulation_02_a_hypothesis_test_as_a_court_trial.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;02 - A hypothesis test as a court&amp;nbsp;trial&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/inference_and_simulation_03_a_manual_simulation_of_the_gender_discrimination_experiment.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;03 - A manual simulation of the gender discrimination&amp;nbsp;experiment&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/doc/inference_and_simulation_04_simulating_the_gender_discrimination_experiment_in_r.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;04 - Simulating the gender discrimination experiment in&amp;nbsp;R …&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;&lt;span class="h2"&gt;Readings&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/assignments/reading09/"&gt;&lt;i class="fa fa-book" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;Reading 9&lt;/span&gt;&lt;/a&gt; (Complete by: Apr-8 @&amp;nbsp;11:59pm)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style="margin-bottom: 1em"&gt;
+
+&lt;/div&gt;
+&lt;p&gt;&lt;span class="h2"&gt;Homeworks&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/assignments/minihw07-who-busts-the-mythbusters/"&gt;&lt;i class="fa fa-pen-square" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;Mini-homework 7 – Who busts the Mythbusters?&lt;/span&gt;&lt;/a&gt; (Due: Apr-12 @&amp;nbsp;11:59pm)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;span class="h2"&gt;Slides&lt;/span&gt;&lt;/p&gt;
+&lt;div class="no-bullets"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/inference_and_simulation_01_gender_discrimination_case_study.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;01 - Gender discrimination case&amp;nbsp;study&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/inference_and_simulation_02_a_hypothesis_test_as_a_court_trial.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;02 - A hypothesis test as a court&amp;nbsp;trial&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/doc/inference_and_simulation_03_a_manual_simulation_of_the_gender_discrimination_experiment.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;03 - A manual simulation of the gender discrimination&amp;nbsp;experiment&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/doc/inference_and_simulation_04_simulating_the_gender_discrimination_experiment_in_r.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;04 - Simulating the gender discrimination experiment in&amp;nbsp;R&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content><category term="class notes"></category></entry><entry><title>Tidy Gradebook</title><link href="http://sp19-dl1.cds101.com/assignments/minihw05-tidy-gradebook/" rel="alternate"></link><published>2019-03-29T23:59:00-04:00</published><updated>2019-03-29T23:59:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-03-29:/assignments/minihw05-tidy-gradebook/</id><summary type="html">A mini-homework for practicing how to reshape datasets using the tidyr&amp;nbsp;library.</summary><content type="html">&lt;p&gt;&lt;span class="h3"&gt;&lt;strong&gt;Due:&lt;/strong&gt; March 29, 2019 @&amp;nbsp;11:59pm&lt;/span&gt;&lt;/p&gt;
 &lt;div class="no-bullets"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://classroom.github.com/a/XxAIO886"&gt;&lt;i class="fab fa-github-alt" data-fa-transform="grow-8"&gt;&lt;/i&gt;  GitHub Classroom repo for &lt;strong&gt;Mini-homework 5 – Tidy&amp;nbsp;Gradebook&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
@@ -1859,7 +2181,7 @@ ggplot(data=iris) +
 &lt;li&gt;&lt;a href="/doc/reproducible_toolbox_02_reproducible_research_toolkit.pdf"&gt;&lt;i class="fas fa-file-pdf" data-fa-transform="grow-16"&gt;&lt;/i&gt;    &lt;span class="card-downloads-format"&gt;02 - Reproducible research&amp;nbsp;toolkit&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</content><category term="class notes"></category></entry><entry><title>Spring 2019 Schedule</title><link href="http://sp19-dl1.cds101.com//index.html" rel="alternate"></link><published>2019-01-22T08:00:00-05:00</published><updated>2019-03-25T08:00:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-01-22://index.html</id><summary type="html">&lt;table&gt;
+</content><category term="class notes"></category></entry><entry><title>Spring 2019 Schedule</title><link href="http://sp19-dl1.cds101.com//index.html" rel="alternate"></link><published>2019-01-22T08:00:00-05:00</published><updated>2019-04-04T08:00:00-04:00</updated><author><name>Dr. Glasbrenner</name></author><id>tag:sp19-dl1.cds101.com,2019-01-22://index.html</id><summary type="html">&lt;table&gt;
 &lt;colgroup&gt;
 &lt;col style="width: 9%" /&gt;
 &lt;col style="width: 11%" /&gt;
@@ -2001,15 +2323,17 @@ data-fa-transform="grow-8"&gt; &lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;Week 9&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;Apr-01 – Apr-05&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;Inference and simulation&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href="/materials/week09-materials/"&gt;&lt;i
+class="fas fa-chalkboard-teacher"
+data-fa-transform="grow-8"&gt; &lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;&lt;a href="/assignments/reading09/"&gt;Reading 9&lt;/a&gt; (Complete by: Apr-08 @ 11:59pm)&lt;br&gt; &lt;a href="/assignments/minihw07-who-busts-the-mythbusters/"&gt;Mini-homework 7&lt;/a&gt; (Due: Apr-12 @ 11:59pm)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class="even"&gt;
 &lt;td style="text-align: left;"&gt;Week 10&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;Apr-08 – Apr-12&lt;/td&gt;
 &lt;td style="text-align: left;"&gt;Inference and simulation&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;&lt;a href="/assignments/reading10/"&gt;Reading 10&lt;/a&gt; (Complete by: Apr-15 @ 11:59pm)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class="odd"&gt;
 &lt;td style="text-align: left;"&gt;Week 11&lt;/td&gt;
