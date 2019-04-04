@@ -1,0 +1,44 @@
+Title: Week 11 – Inference and simulation
+Author: Dr. Glasbrenner
+Author_Image: https://www.gravatar.com/avatar/49802fdfa5a0e63b3d932a5179d41c1e
+Date: 2019-04-15 08:00
+Tags: class notes
+Slug: week11-materials
+Show_summary: false
+Show_link: false
+
+```{r setup, include = FALSE}
+icon_pdf <- '<i class="fas fa-file-pdf" data-fa-transform="grow-16"></i>&nbsp;'
+icon_pen <- '<i class="fa fa-pen-square" data-fa-transform="grow-16"></i>&nbsp;'
+icon_book <- '<i class="fa fa-book" data-fa-transform="grow-16"></i>&nbsp;'
+icon_github <- '<i class="fab fa-github-alt" data-fa-transform="grow-8"></i>&nbsp;'
+icon_pencil <- '<i class="fas fa-pencil-alt" data-fa-transform="grow-16"></i>&nbsp;'
+icon_laptop <- '<i class="fa fa-laptop" data-fa-transform="grow-16"></i>&nbsp;'
+```
+
+[Homeworks]{.h2}
+
+::: {.no-bullets}
+*   [`r icon_pencil` &nbsp; [Homework 3 -- National Survey of Family Growth]{.card-downloads-format}][homework03] (Due: May-01 @ 11:59pm)
+:::
+
+[Slides]{.h2}
+
+::: {.no-bullets}
+*   [`r icon_pdf` &nbsp; [05 - One-sided hypothesis tests using infer]{.card-downloads-format}][slides-05]
+
+*   [`r icon_pdf` &nbsp; [06 - Two-sided hypothesis tests using infer]{.card-downloads-format}][slides-06]
+
+*   [`r icon_pdf` &nbsp; [07 - Variability of estimates and confidence intervals]{.card-downloads-format}][slides-07]
+
+*   [`r icon_pdf` &nbsp; [08 - Simulating the confidence interval]{.card-downloads-format}][slides-08]
+
+*   [`r icon_pdf` &nbsp; [09 - Effect size]{.card-downloads-format}][slides-09]
+:::
+
+[slides-05]:  /doc/inference_and_simulation_05_one-sided_hypothesis_tests.pdf
+[slides-06]:  /doc/inference_and_simulation_06_two-sided_hypothesis_tests.pdf
+[slides-07]:  /doc/inference_and_simulation_07_variability_of_estimates.pdf
+[slides-08]:  /doc/inference_and_simulation_08_simulating_the_confidence_interval.pdf
+[slides-09]:  /doc/inference_and_simulation_09_effect_size.pdf
+[homework03]: /assignments/homework-3/

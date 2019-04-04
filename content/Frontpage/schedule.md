@@ -1,7 +1,7 @@
 Title: Spring 2019 Schedule
 Author: Dr. Glasbrenner
 Date: 2019-01-22 08:00
-Modified: 2019-03-25 08:00
+Modified: 2019-04-16 08:00
 Index_save_as: index.html
 Url: /index.html
 
@@ -52,11 +52,20 @@ Week 8           Mar-25 – Mar-29      Data distributions                      
                                                                                                     data-fa-transform="grow-8">        [Mini-homework 6] (Due: Apr-05 @ 11:59pm)
                                                                                                     </i>][week08-materials]
 
-Week 9           Apr-01 – Apr-05      Inference and simulation
+Week 9           Apr-01 – Apr-05      Inference and simulation                                      [<i                                [Reading 9] (Complete by: Apr-08 @ 11:59pm)<br>
+                                                                                                    class="fas fa-chalkboard-teacher"  [Mini-homework 7] (Due: Apr-12 @ 11:59pm)
+                                                                                                    data-fa-transform="grow-8">
+                                                                                                    </i>][week09-materials]
 
-Week 10          Apr-08 – Apr-12      Inference and simulation
+Week 10          Apr-08 – Apr-12      Inference and simulation                                      [<i                                [Reading 10] (Complete by: Apr-15 @ 11:59pm)
+                                                                                                    class="fas fa-chalkboard-teacher"
+                                                                                                    data-fa-transform="grow-8">
+                                                                                                    </i>][week10-materials]
 
-Week 11          Apr-15 – Apr-19      Inference and simulation
+Week 11          Apr-15 – Apr-19      Inference and simulation                                      [<i                                [Homework 3] (Complete by: May-01 @ 11:59pm)
+                                                                                                    class="fas fa-chalkboard-teacher"
+                                                                                                    data-fa-transform="grow-8">
+                                                                                                    </i>][week11-materials]
 
 Week 12          Apr-22 – Apr-26      Modeling
 
@@ -74,8 +83,11 @@ Week 13          Apr-29 – May-03      Modeling
 [Reading 6]:          /assignments/reading06/
 [Reading 7]:          /assignments/reading07/
 [Reading 8]:          /assignments/reading08/
+[Reading 9]:          /assignments/reading09/
+[Reading 10]:         /assignments/reading10/
 [Homework 1]:         /assignments/homework-1/
 [Homework 2]:         /assignments/homework-2/
+[Homework 3]:         /assignments/homework-3/
 [Mini-homework 1]:    /assignments/minihw01-can-twitter-predict-election-results/
 [Mini-homework 2a]:   /assignments/minihw02a-rmarkdown-practice/
 [Mini-homework 2b]:   /assignments/minihw02b-visualization-practice/
@@ -83,6 +95,7 @@ Week 13          Apr-29 – May-03      Modeling
 [Mini-homework 4]:    /assignments/minihw04-flights-of-new-york/
 [Mini-homework 5]:    /assignments/minihw05-tidy-gradebook/
 [Mini-homework 6]:    /assignments/minihw06-analyzing-data-distributions/
+[Mini-homework 7]:    /assignments/minihw07-who-busts-the-mythbusters/
 [week01-materials]:   /materials/week01-materials/
 [week02-materials]:   /materials/week02-materials/
 [week03-materials]:   /materials/week03-materials/
@@ -91,6 +104,9 @@ Week 13          Apr-29 – May-03      Modeling
 [week06-materials]:   /materials/week06-materials/
 [week07-materials]:   /materials/week07-materials/
 [week08-materials]:   /materials/week08-materials/
+[week09-materials]:   /materials/week09-materials/
+[week10-materials]:   /materials/week10-materials/
+[week11-materials]:   /materials/week11-materials/
 [Module 1 exercises]: /assignments/module01-exercises/
 [Module 4 exercises]: /assignments/module04-exercises/
 [Module 6 exercises]: /assignments/module06-exercises/
