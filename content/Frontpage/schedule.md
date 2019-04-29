@@ -1,7 +1,7 @@
 Title: Spring 2019 Schedule
 Author: Dr. Glasbrenner
 Date: 2019-01-22 08:00
-Modified: 2019-04-16 08:00
+Modified: 2019-04-29 08:00
 Index_save_as: index.html
 Url: /index.html
 
@@ -67,11 +67,11 @@ Week 11          Apr-15 – Apr-19      Inference and simulation                
                                                                                                     data-fa-transform="grow-8">
                                                                                                     </i>][week11-materials]
 
-Week 12          Apr-22 – Apr-26      Modeling
+Week 12          Apr-22 – Apr-26      Inference and simulation
 
-Week 13          Apr-29 – May-03      Modeling
-
-                 May-06 – May-10      *Final project week*                                                                             Final project report (due: May-10 @ 11:59pm)
+Week 13          Apr-29 – May-03      Final project                                                                                    [Final project]<br>
+                                                                                                                                       (Questions due: May-05 @ 11:59pm)<br>
+                                                                                                                                       (Report due: May-14 @ 11:59pm)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -88,6 +88,7 @@ Week 13          Apr-29 – May-03      Modeling
 [Homework 1]:         /assignments/homework-1/
 [Homework 2]:         /assignments/homework-2/
 [Homework 3]:         /assignments/homework-3/
+[Final project]:      /assignments/final-project/
 [Mini-homework 1]:    /assignments/minihw01-can-twitter-predict-election-results/
 [Mini-homework 2a]:   /assignments/minihw02a-rmarkdown-practice/
 [Mini-homework 2b]:   /assignments/minihw02b-visualization-practice/
